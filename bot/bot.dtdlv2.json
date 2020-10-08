@@ -1,0 +1,122 @@
+[{
+		"@id": "dtmi:w3id.org:bot:Vocabulary;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2"
+	}, {
+		"@id": "dtmi:w3id.org:bot:Zone;1",
+		"@type": "Interface",
+		"contents": [{
+				"@type": "Relationship",
+				"name": "adjacent zone@en",
+				"target": "dtmi:w3id.org:bot:Zone;1",
+				"comment": "Relationship between two zones that share a common interface, but do not intersect.@en",
+				"displayName": "adjacent zone@en"
+			}, {
+				"@type": "Relationship",
+				"name": "intersects zone@en",
+				"target": "dtmi:w3id.org:bot:Zone;1",
+				"comment": "Relationship between two zones whose 3D extent intersect. For example, a stairwell intersects different storeys.@en",
+				"displayName": "intersects zone@en"
+			}, {
+				"@type": "Relationship",
+				"name": "contains zone@en",
+				"target": "dtmi:w3id.org:bot:Zone;1",
+				"comment": "Relationship to the subzones of a major zone. A space zone could for instance be contained in a storey zone which is further contained in a building zone. bot:containsZone is a transitive property. This implies that in the previous example a bot:containsZone relationship holds between the space zone and the building zone.@en",
+				"displayName": "contains zone@en"
+			}, {
+				"@type": "Relationship",
+				"name": "has building@en",
+				"target": "dtmi:w3id.org:bot:Building;1",
+				"comment": "Relation to buildings contained in a zone. The typical domains of bot:hasBuilding are instances of bot:Site.@en",
+				"displayName": "has building@en"
+			}, {
+				"@type": "Relationship",
+				"name": "has storey@en",
+				"target": "dtmi:w3id.org:bot:Storey;1",
+				"comment": "Relation to storeys contained in a zone. The typical domains of bot:hasStorey are instances of bot:Building.@en",
+				"displayName": "has storey@en"
+			}, {
+				"@type": "Relationship",
+				"name": "has space@en",
+				"target": "dtmi:w3id.org:bot:Space;1",
+				"comment": "Relation to spaces contained in a zone. The typical domains of bot:hasSpace are instances of bot:Storey or bot:Building.@en",
+				"displayName": "has space@en"
+			}, {
+				"@type": "Relationship",
+				"name": "has element@en",
+				"target": "dtmi:w3id.org:bot:Element;1",
+				"comment": "Links a Zone to an Element that is either contained in, adjacent to or intersecting with the Zone. The intended use of this relationship is not to be stated explicitly, but to be inferred from its sub-properties. It will, for example, allow one to query for all the doors of a building given that they have an adjacency to spaces of the building.@en",
+				"displayName": "has element@en"
+			}
+		],
+		"@context": "dtmi:dtdl:context;2",
+		"displayName": "Zone@en",
+		"comment": "A part of the physical world or a virtual world that is inherently both located in this world and has a 3D spatial extent; Sub-classes of bot:Zone include bot:Site, bot:Building, bot:Storey, or bot:Space.  An instance of bot:Zone can contain other bot:Zone instances, making it possible to group or subdivide zones. An instance of bot:Zone can be adjacent to or intersecting other bot:Zone instances. Finally, a bot:Zone can instantiate three relations to bot:Element, which are either contained in (bot:containsElement), adjacent to it (bot:adjacentElement) or intersecting (bot:intersectingElement).@en"
+	}, {
+		"@id": "dtmi:w3id.org:bot:Site;1",
+		"@type": "Interface",
+		"contents": [{
+				"@type": "Relationship",
+				"name": "has zero point@en",
+				"comment": "Links a bot:Site to an instance that encodes the latitude and longitude of the Zero Point of the building site. This could be an instance of a wgs84:Point. The definition of GIS and geometry is not within the scope of BOT and an appropriate ontology needs to be selected here by the user. The use of this property is potentially ambiguous and it might be removed or revised in future editions of the ontology.@en",
+				"displayName": "has zero point@en"
+			}
+		],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:w3id.org:bot:Zone;1"],
+		"displayName": "Site@en",
+		"comment": "A part of the physical world or a virtual world that is inherently both located in this world and having a 3D spatial extent. It is intended to contain or contains one or more buildings.@en"
+	}, {
+		"@id": "dtmi:w3id.org:bot:Building;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:w3id.org:bot:Zone;1"],
+		"displayName": "Building@en",
+		"comment": "An independent unit of the built environment with a characteristic spatial structure, intended to serve at least one function or user activity [ISO 12006-2:2013]. A bot:Building is a part of the physical world or a virtual world that is inherently both located in this world and having a 3D spatial extent, is contained in a building site, and can contain one or more storeys that are vertically connected.@en"
+	}, {
+		"@id": "dtmi:w3id.org:bot:Storey;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:w3id.org:bot:Zone;1"],
+		"displayName": "Storey@en",
+		"comment": "A part of the physical world or a virtual world that is inherently both located in this world and having a 3D spatial extent. A bot:Storey is contained in one or more buildings, and is intended to contain one or more spaces that are horizontally connected. Storeys of a building are connected by means of vertical connections such as elevators and stairs. A bot:Storey encompasses both zones above and below ground, for example, a building with 21 floors above ground, one ground floor and 3 basements is equal to the sentence: A building has 25 instances of bot:Storey.@en"
+	}, {
+		"@id": "dtmi:w3id.org:bot:Space;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:w3id.org:bot:Zone;1"],
+		"displayName": "Space@en",
+		"comment": "A part of the physical world or a virtual world whose 3D spatial extent is bounded actually or theoretically, and provides for certain functions within the zone it is contained in.@en"
+	}, {
+		"@id": "dtmi:w3id.org:bot:Element;1",
+		"@type": "Interface",
+		"contents": [{
+				"@type": "Relationship",
+				"name": "has sub-element@en",
+				"target": "dtmi:w3id.org:bot:Element;1",
+				"comment": "Relation between two building elements, either one element hosting another (e.g. a wall hosts a window) or a subcomposition of a building element into smaller parts (e.g. an air handling unit has as a part a fan).@en",
+				"displayName": "has sub-element@en"
+			}
+		],
+		"@context": "dtmi:dtdl:context;2",
+		"displayName": "Building element@en",
+		"comment": "Constituent of a construction entity with a characteristic technical function, form or position [ISO 12006-2:2015, 3.4.7]@en"
+	}, {
+		"@id": "dtmi:w3id.org:bot:Interface;1",
+		"@type": "Interface",
+		"contents": [{
+				"@type": "Relationship",
+				"name": "interface of@en",
+				"comment": "Relationship between an interface and another thing (building zone, element or owl:Thing)@en",
+				"displayName": "interface of@en"
+			}
+		],
+		"@context": "dtmi:dtdl:context;2",
+		"displayName": "Interface@en",
+		"comment": "A generic concept to qualify the relationship of two or more things in the world, where at least one is a building element or zone. Examples:\n    - Qualification of heat transmission between zones through one or more building elements. This includes one-dimensional (surface) heat losses from one zone to another through a single building element, a two dimensional (line) loss from one zone to another through the connection in which the two elements meet or a three dimensional (point) loss from one zone to another through the connection where three elements (typically two walls and a slab) meet. \n    - Connection of an electric device to the electric system of a building. \n    - A door between one room and another.@en"
+	}
+]
