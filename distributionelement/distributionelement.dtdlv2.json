@@ -1,0 +1,3859 @@
+[{
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Actuator;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionControlElement;1"],
+		"displayName": "Actuator@en",
+		"comment": "A mechanical device for moving or controlling a mechanism or system. An actuator takes energy, usually created by air, electricity, or liquid, and converts that into some kind of motion.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Actuator-ELECTRICACTUATOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Actuator;1"],
+		"displayName": "Electric Actuator@en",
+		"comment": "a device that electrically actuates a control element@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Actuator-HANDOPERATEDACTUATOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Actuator;1"],
+		"displayName": "Hand-Operated Actuator@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0FuSpPYcbBcAKNNq77IEUN@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Actuator-HYDRAULICACTUATOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Actuator;1"],
+		"displayName": "Hydraulic Actuator@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/23inrfSJTEjPmdb42m6RPS@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Actuator-PNEUMATICACTUATOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Actuator;1"],
+		"displayName": "Pneumatic Actuator@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1An85fZE5EZuDCIYomL2WH@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Actuator-THERMOSTATICACTUATOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Actuator;1"],
+		"displayName": "Thermostatic Actuator@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3dkx9QS9HB_emzU3ErhfqY@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AirTerminal;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowTerminal;1"],
+		"displayName": "Air Terminal@en",
+		"comment": "A terminal terminating or origination point for the transfer of air between distribution system(s) and one or more spaces. It can also be used for the transfer of air between adjacent spaces.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AirTerminal-DIFFUSER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AirTerminal;1"],
+		"displayName": "Diffuser@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1FTT5hVkDA$QvjrFJNJEnI@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AirTerminal-GRILLE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AirTerminal;1"],
+		"displayName": "Grille@en",
+		"comment": "a covering for any area through which air passes.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AirTerminal-LOUVRE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AirTerminal;1"],
+		"displayName": "Louvre@en",
+		"comment": "a rectilinear louvre.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AirTerminal-REGISTER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AirTerminal;1"],
+		"displayName": "Register@en",
+		"comment": "a grille typically equipped with a damper or control valve.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AirTerminalBox;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowController;1"],
+		"displayName": "Air Terminal Box@en",
+		"comment": "A terminal box in an HVAC duct distribution system and is used to control or modulate the amount of air delivered to its downstream ductwork. Often referred to as an 'air flow regulator'.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AirTerminalBox-CONSTANTFLOW;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AirTerminalBox;1"],
+		"displayName": "Constant Flow Air Terminal Box@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0dsGGCiP10ouwdibwvCd4F@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AirTerminalBox-VARIABLEFLOWPRESSUREDEPENDANT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AirTerminalBox;1"],
+		"displayName": "Variable Flow Pressure Dependent Air Terminal Box@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2EJZMcPDLDIvG04WI9UZaC@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AirTerminalBox-VARIABLEFLOWPRESSUREINDEPENDANT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AirTerminalBox;1"],
+		"displayName": "Variable Flow Pressure Independent Air Terminal Box@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2zgc7TxXP2igAw6tyDqxcB@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AirToAirHeatRecovery;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EnergyConversionDevice;1"],
+		"displayName": "Air-to-Air Heat Recovery@en",
+		"comment": "A counter-flow heat exchanger between inbound and outbound air flow. Typically used to transfer heat from warmer air in one chamber to cooler air in the second chamber (i.e., typically used to recover heat from the conditioned air being exhausted and the outside air being supplied to a building), resulting in energy savings from reduced heating (or cooling) requirements.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AirToAirHeatRecovery-FIXEDPLATECOUNTERFLOWEXCHANGER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AirToAirHeatRecovery;1"],
+		"displayName": "Fixed-Plate Counter-Flow Exchanger@en",
+		"comment": "heat exchanger with moving parts and alternate layers of plates, separated and sealed from the exhaust and supply air stream passages with primary air entering at secondary air outlet location and exiting at secondary air inlet location@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AirToAirHeatRecovery-FIXEDPLATECROSSFLOWEXCHANGER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AirToAirHeatRecovery;1"],
+		"displayName": "Fixed-Plate Cross-Flow Exchanger@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2LTpG80kz5Oh41Z0r9nlld@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AirToAirHeatRecovery-FIXEDPLATEPARALLELFLOWEXCHANGER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AirToAirHeatRecovery;1"],
+		"displayName": "Fixed-Plate Parallel-Flow Exchanger@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2miQYyrOfDkQ3LRDmm98s2@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AirToAirHeatRecovery-HEATPIPE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AirToAirHeatRecovery;1"],
+		"displayName": "Heat Pipe@en",
+		"comment": "a passive energy recovery device with a heat pipe divided into evaporator and condenser sections@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AirToAirHeatRecovery-ROTARYWHEEL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AirToAirHeatRecovery;1"],
+		"displayName": "Rotary Wheel@en",
+		"comment": "a heat wheel with a revolving cylinder filled with an air-permeable medium having a large internal surface area@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AirToAirHeatRecovery-RUNAROUNDCOILLOOP;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AirToAirHeatRecovery;1"],
+		"displayName": "Run-Around Coil Loop@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2cqFu4yIn4g8zaq7Ari71H@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AirToAirHeatRecovery-THERMOSIPHONCOILTYPEHEATEXCHANGERS;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AirToAirHeatRecovery;1"],
+		"displayName": "Thermosiphon Coil-Type Heat Exchangers@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1tRIVmPDzFEwR3BpMALcZq@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AirToAirHeatRecovery-THERMOSIPHONSEALEDTUBEHEATEXCHANGERS;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AirToAirHeatRecovery;1"],
+		"displayName": "Thermosiphon Sealed-Tube Heat Exchanger@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3sRN7JNafC$OyVXS$9WPxV@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AirToAirHeatRecovery-TWINTOWERENTHALPYRECOVERYLOOPS;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AirToAirHeatRecovery;1"],
+		"displayName": "Twin Tower Enthalpy Recovery Loop@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0LF0EN7b17KRgoO5lIZDTY@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Alarm;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionControlElement;1"],
+		"displayName": "Alarm@en",
+		"comment": "device, which may be connected into a transmission path of a fire detection and fire alarm system, to limit the consequences of low parallel resistance faults between the lines of this transmission path@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Alarm-BELL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Alarm;1"],
+		"displayName": "Bell@en",
+		"comment": "an audible alarm@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Alarm-BREAKGLASSBUTTON;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Alarm;1"],
+		"displayName": "Break Glass Button@en",
+		"comment": "an alarm activation mechanism in which a protective glass has to be broken to enable a button to be pressed@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Alarm-LIGHT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Alarm;1"],
+		"displayName": "Licht@de-de",
+		"comment": "a visual alarm@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Alarm-MANUALPULLBOX;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Alarm;1"],
+		"displayName": "Manual Pullbox@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3zt85EwTXD_QTso9MWvKcg@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Alarm-SIREN;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Alarm;1"],
+		"displayName": "Siren@en",
+		"comment": "an audible alarm@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Alarm-WHISTLE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Alarm;1"],
+		"displayName": "Whistle@en",
+		"comment": "an audible alarm@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowTerminal;1"],
+		"displayName": "Audio Visual Appliance@en",
+		"comment": "A device that displays, captures, transmits, or receives audio or video.\r\nAudio-visual appliances may be fixed in place or may be able to be moved from one space to another. They may require an electrical supply that may be supplied either by an electrical circuit or provided from a local battery source. Audio-visual appliances may be connected to data circuits including specialist circuits for audio visual purposes only.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance-AMPLIFIER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance;1"],
+		"displayName": "Amplifier@en",
+		"comment": "device for boosting audio signal power by means of auxiliary power@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance-CAMERA;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance;1"],
+		"displayName": "Camera@en",
+		"comment": "a device that records images, either as a still photograph or as moving images known as videos or movies. Note that a camera may operate with light from the visible spectrum or from other parts of the electromagnetic spectrum such as infrared or ultraviolet.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance-DISPLAY;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance;1"],
+		"displayName": "Display@en",
+		"comment": "an electronic device that represents information in visual form such as a flat-panel display or television.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance-MICROPHONE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance;1"],
+		"displayName": "Microfoon@nl-nl",
+		"comment": "an instrument for converting sound waves into electrical energy variations which may then be amplified, transmitted, or recorded@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance-PLAYER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance;1"],
+		"displayName": "Player@en",
+		"comment": "a device for playing recorded music@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance-PROJECTOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance;1"],
+		"displayName": "Projector@en",
+		"comment": "a device that is used to project rays of light, especially an apparatus with a system of lenses for projecting slides or film on to a screen@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance-RECEIVER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance;1"],
+		"displayName": "Receiver@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0f5ylhxBD1hxZPMi642Cwa@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance-SPEAKER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance;1"],
+		"displayName": "Speaker@en",
+		"comment": "an apparatus that converts electrical impulses into sound, typically as part of a public address system@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance-SWITCHER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance;1"],
+		"displayName": "Switcher@en",
+		"comment": "a piece of electronic equipment used to select or combine different video and audio signals@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance-TELEPHONE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance;1"],
+		"displayName": "Telephone@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3LvBfsxh5A9OLMJxpzp_5P@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance-TUNER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:AudioVisualAppliance;1"],
+		"displayName": "Tuner@en",
+		"comment": "an electronic device for varying the frequency to which a radio or television is tuned@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Boiler;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EnergyConversionDevice;1"],
+		"displayName": "Boiler@en",
+		"comment": "A closed, pressure-rated vessel in which water or other fluid is heated using an energy source such as natural gas, heating oil, or electricity. @en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Boiler-STEAM;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Boiler;1"],
+		"displayName": "Steam Boiler@en",
+		"comment": "The amount of steam consumed during the period specified in the time series.@ifc-2x4"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Boiler-WATER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Boiler;1"],
+		"displayName": "Water Boiler@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3vHZlaoT0Hsm00051Mm008@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Burner;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EnergyConversionDevice;1"],
+		"displayName": "Brenner@de-de",
+		"comment": "A device that converts fuel into heat through combustion.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CableCarrierFitting;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowFitting;1"],
+		"displayName": "Cable Carrier Fitting@en",
+		"comment": "A fitting that is placed at junction or transition in a cable carrier system.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CableCarrierFitting-BEND;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CableCarrierFitting;1"],
+		"displayName": "Bend@en",
+		"comment": "a fitting that changes the route of the cable carrier.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CableCarrierFitting-CROSS;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CableCarrierFitting;1"],
+		"displayName": "Cross@en",
+		"comment": "a fitting at which two branches are taken from the main route of the cable carrier simultaneously.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CableCarrierFitting-REDUCER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CableCarrierFitting;1"],
+		"displayName": "Reducer@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3$DOQ8x9jEFehexpevTRMs@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CableCarrierFitting-TEE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CableCarrierFitting;1"],
+		"displayName": "T-rør@nb-no",
+		"comment": "a fitting at which a branch is taken from the main route of the cable carrier.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CableCarrierSegment;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowSegment;1"],
+		"displayName": "Cable Carrier Segment@en",
+		"comment": "A flow segment that is specifically used to carry and support cabling.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CableCarrierSegment-CABLELADDERSEGMENT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CableCarrierSegment;1"],
+		"displayName": "Cable Ladder Segment@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0FImfTYGb48ursCbLXsTCr@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CableCarrierSegment-CABLETRAYSEGMENT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CableCarrierSegment;1"],
+		"displayName": "Cable Tray Segment@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3t8hY0ZCvEj8gC2KrGLxGu@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CableCarrierSegment-CABLETRUNKINGSEGMENT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CableCarrierSegment;1"],
+		"displayName": "Cable Trunk Segment@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0bkSD8Eh1ByuLzjMf5xfTq@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CableCarrierSegment-CONDUITSEGMENT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CableCarrierSegment;1"],
+		"displayName": "Conduit Segment@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3MuSnBn2PFkfAY3gBeVAlk@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CableFitting;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowFitting;1"],
+		"displayName": "Cable Fitting@en",
+		"comment": "A fitting that is placed at a junction, transition or termination in a cable system.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CableFitting-CONNECTOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CableFitting;1"],
+		"displayName": "Connector@en",
+		"comment": "a device for keeping two parts of an electric circuit in contact@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CableFitting-ENTRY;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CableFitting;1"],
+		"displayName": "Entry@en",
+		"comment": "a fitting that begins a cable segment at a non-electrical element such as a grounding clamp attached to a pipe@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CableFitting-EXIT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CableFitting;1"],
+		"displayName": "Exit@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1_YaBIQW905QZ9AjtoPTNy@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CableFitting-JUNCTION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CableFitting;1"],
+		"displayName": "Junction@en",
+		"comment": "a fitting that joins three or more segments of arbitrary connector types for signal splitting or multiplexing.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CableFitting-TRANSITION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CableFitting;1"],
+		"displayName": "Transition@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2H3YKfRzn2u9Nog81SAl8k@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CableSegment;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowSegment;1"],
+		"displayName": "Cable Segment@en",
+		"comment": "A flow segment used to carry electrical power, data, or telecommunications signals.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CableSegment-BUSBARSEGMENT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CableSegment;1"],
+		"displayName": "Busbar Segment@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0uFCFVhl53Re8TGtNoQbaU@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CableSegment-CONDUCTORSEGMENT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CableSegment;1"],
+		"displayName": "Conductor Segment@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2dlPSgGMHCnu9mfLG8gZtL@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CableSegment-CORESEGMENT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CableSegment;1"],
+		"displayName": "Core Segment@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2AYnQG0vTDUwn_LR9znomO@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Chiller;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EnergyConversionDevice;1"],
+		"displayName": "Chiller@en",
+		"comment": "A device used to remove heat from a liquid via a vapor-compression or absorption refrigeration cycle to cool a fluid, typically water or a mixture of water and glycol.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Chiller-AIRCOOLED;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Chiller;1"],
+		"displayName": "Air-Cooled Chiller@en",
+		"comment": "air cooled chiller@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Chiller-HEATRECOVERY;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Chiller;1"],
+		"displayName": "Heat Recovery Chiller@en",
+		"comment": "heat recovery chiller.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Chiller-WATERCOOLED;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Chiller;1"],
+		"displayName": "Water-Cooled Chiller@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1$b15itWrEVeOmpk8LNP3I@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Coil;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EnergyConversionDevice;1"],
+		"displayName": "Bobine@fr-fr",
+		"comment": "A device used to provide heat transfer between non-mixing media.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Coil-DXCOOLINGCOIL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Coil;1"],
+		"displayName": "DXCoolingCoil@en",
+		"comment": "cooling coil using a refrigerant to cool the air stream directly.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Coil-ELECTRICHEATINGCOIL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Coil;1"],
+		"displayName": "Electric Heating Coil@en",
+		"comment": "heating coil using electricity as a heating source.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Coil-GASHEATINGCOIL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Coil;1"],
+		"displayName": "Gas Heating Coil@en",
+		"comment": "heating coil using gas as a heating source.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Coil-HYDRONICCOIL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Coil;1"],
+		"displayName": "Hydronic Coil@en",
+		"comment": "cooling or Heating coil that uses a hydronic fluid as a cooling or heating source.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Coil-STEAMHEATINGCOIL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Coil;1"],
+		"displayName": "Steam Heating Coil@en",
+		"comment": "heating coil using steam as heating source.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Coil-WATERCOOLINGCOIL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Coil;1"],
+		"displayName": "Water Cooling Coil@en",
+		"comment": "cooling coil using chilled water. HYDRONICCOIL supercedes this enumerator.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Coil-WATERHEATINGCOIL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Coil;1"],
+		"displayName": "Water Heating Coil@en",
+		"comment": "heating coil using hot water as a heating source. HYDRONICCOIL supercedes this enumerator.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowTerminal;1"],
+		"displayName": "Appareil de communications@fr-fr",
+		"comment": "A communications device transmits and receives electronic or digital information as data or sound.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance-ANTENNA;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance;1"],
+		"displayName": "Antenna@en",
+		"comment": "a transducer designed to transmit or receive electromagnetic waves.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance-COMPUTER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance;1"],
+		"displayName": "Computer@en",
+		"comment": "an electronic device which is capable of receiving information (data) in a particular form and of performing a sequence of operations in accordance with a predetermined but variable set of procedural instructions (program) to produce a result in the form of information or signals@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance-FAX;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance;1"],
+		"displayName": "Fax@en",
+		"comment": "a machine for transmitting and receiving faxes@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance-GATEWAY;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance;1"],
+		"displayName": "Gateway@en",
+		"comment": "a gateway connects multiple network segments with different protocols at all layers (layers 1-7) of the Open Systems Interconnection (OSI) model.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance-MODEM;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance;1"],
+		"displayName": "Modem@en",
+		"comment": "a combined device for modulation and demodulation, for example, between the digital data of a computer and the analogue signal of a telephone line@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance-NETWORKAPPLIANCE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance;1"],
+		"displayName": "Network Appliance@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2WnZ6tZHfC7gNz8mylrfCG@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance-NETWORKBRIDGE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance;1"],
+		"displayName": "Network Bridge@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2BwyUI_XTBHhVWLVNXjmP1@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance-NETWORKHUB;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance;1"],
+		"displayName": "Network Hub@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2isi2CWT5C8hpM6didtFuS@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance-PRINTER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance;1"],
+		"displayName": "Printer@en",
+		"comment": "a machine for printing text or pictures, especially one linked to a computer@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance-REPEATER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance;1"],
+		"displayName": "Repeater@en",
+		"comment": "a device for the automatic retransmission or amplification of an electrically transmitted message@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance-ROUTER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance;1"],
+		"displayName": "Router@en",
+		"comment": "A router is a networking device whose software and hardware are usually tailored to the tasks of routing and forwarding information. For example, on the Internet, information is directed to various paths by routers.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance-SCANNER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CommunicationsAppliance;1"],
+		"displayName": "Scanner@en",
+		"comment": "a device that scans documents and converts them into digital data@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Compressor;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowMovingDevice;1"],
+		"displayName": "Compresseur@fr-fr",
+		"comment": "A device that compresses a fluid typically used in a refrigeration circuit.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Compressor-BOOSTER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Compressor;1"],
+		"displayName": "forsterker@nb-no",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0KvKrF8Vv38QKJC3iDOsZR@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Compressor-DYNAMIC;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Compressor;1"],
+		"displayName": "Dynamic Compressor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0bjNJRb7f3bOrNnlEVDx$V@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Compressor-HERMETIC;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Compressor;1"],
+		"displayName": "Hermetic Compressor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1QxsNyRLjDEfER9sd9a4nA@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Compressor-OPENTYPE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Compressor;1"],
+		"displayName": "Open Type Compressor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/35$2VQ6Vf3yAbaBgoiZ_Qy@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Compressor-RECIPROCATING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Compressor;1"],
+		"displayName": "Reciprocating Compressor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1rD1BDTTnA4Opl9hEUzc3J@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Compressor-ROLLINGPISTON;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Compressor;1"],
+		"displayName": "Rolling Piston Compressor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/25ip$MycH3CApiL8P1Zfua@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Compressor-ROTARY;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Compressor;1"],
+		"displayName": "Rotary Compressor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/34DscBiG12O81W_KaUsgZs@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Compressor-ROTARYVANE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Compressor;1"],
+		"displayName": "Rotary Vane Compressor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3Fnn56$If0Ywd7AMXubW5r@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Compressor-SCROLL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Compressor;1"],
+		"displayName": "Scroll Compressor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1e5CFyUGv9suZ9ky8c_4Ir@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Compressor-SEMIHERMETIC;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Compressor;1"],
+		"displayName": "Semi Hermetic Compressor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0rQK7zwf97_vwAvPlWuuME@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Compressor-SINGLESCREW;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Compressor;1"],
+		"displayName": "Single Screw Compressor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2U43NgKlnBqPnnBLsl6wU4@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Compressor-SINGLESTAGE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Compressor;1"],
+		"displayName": "Single Stage Compressor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1sA1FIWkz8SRjvM$gcNai0@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Compressor-TROCHOIDAL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Compressor;1"],
+		"displayName": "Trochoidal Compressor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1L2jXYOSr0k980kt8JnyQv@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Compressor-TWINSCREW;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Compressor;1"],
+		"displayName": "Twin Screw Compressor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3hihvfHSj9h8cGQM0xtKAu@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Compressor-WELDEDSHELLHERMETIC;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Compressor;1"],
+		"displayName": "Welded Shell Hermetic Compressor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3YKCxQG3X2xhA2b8$YRmuH@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Condenser;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EnergyConversionDevice;1"],
+		"displayName": "Condenser@en",
+		"comment": "A device that is used to dissipate heat, typically by condensing a substance such as a refrigerant from its gaseous to its liquid state.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Condenser-AIRCOOLED;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Condenser;1"],
+		"displayName": "Air Cooled@en",
+		"comment": "a condenser in which heat is transferred to an air-stream@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Condenser-EVAPORATIVECOOLED;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Condenser;1"],
+		"displayName": "Evaporative Cooled@en",
+		"comment": "a condenser that is cooled evaporatively.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Condenser-WATERCOOLED;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Condenser;1"],
+		"displayName": "Water Cooled@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1$_Cv8DcnEIhdevMYpgzOs@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Condenser-WATERCOOLEDBRAZEDPLATE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Condenser;1"],
+		"displayName": "Water Cooled Brazed Plate@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3DsQKabLb8PuG7s1BwpA5x@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Condenser-WATERCOOLEDSHELLCOIL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Condenser;1"],
+		"displayName": "Water Cooled Shell Coil@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2y2FRrDI58wPQ$P0QmPB4S@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Condenser-WATERCOOLEDSHELLTUBE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Condenser;1"],
+		"displayName": "Water Cooled Shell Tube@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1v95Mqhl19xxpoA6ogzO73@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Condenser-WATERCOOLEDTUBEINTUBE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Condenser;1"],
+		"displayName": "Water Cooled Tube In Tube@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2qm75n0SHCbPRb1y1l8QGa@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Controller;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionControlElement;1"],
+		"displayName": "Controller@en",
+		"comment": "A device that monitors inputs and controls outputs within a building automation system.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Controller-FLOATING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Controller;1"],
+		"displayName": "Floating@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3v66KyDUH03vDK75zE5Ddn@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Controller-MULTIPOSITION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Controller;1"],
+		"displayName": "Multi-Position@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2a0hNKxwTAH8HS3TExjKQd@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Controller-PROGRAMMABLE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Controller;1"],
+		"displayName": "Programmable@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1UXoUiKJr2XedXgGzf6I3D@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Controller-PROPORTIONAL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Controller;1"],
+		"displayName": "Proportional@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3soSUmco55dRLnyEdLB2Pe@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Controller-TWOPOSITION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Controller;1"],
+		"displayName": "Two-Position@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3eIN8kftz36v5YeB_hMmzI@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CooledBeam;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EnergyConversionDevice;1"],
+		"displayName": "Chilled Beam@en",
+		"comment": "A device typically used to cool air by circulating a fluid such as chilled water through exposed finned tubes above a space. Typically mounted overhead near or within a ceiling.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CooledBeam-ACTIVE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CooledBeam;1"],
+		"displayName": "Active@en",
+		"comment": "an active or ventilated cooled beam provides cooling (and heating) but can also function as an air terminal in a ventilation system@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CooledBeam-PASSIVE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CooledBeam;1"],
+		"displayName": "Passive@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2xz0NcLlr5_O7fEPShW1WV@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CoolingTower;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EnergyConversionDevice;1"],
+		"displayName": "Cooling Tower@en",
+		"comment": "A device which rejects heat to ambient air by circulating a fluid such as water through it to reduce its temperature by partial evaporation.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CoolingTower-MECHANICALFORCEDDRAFT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CoolingTower;1"],
+		"displayName": "Mechanical Forced Draft@en",
+		"comment": "air flow is produced by a mechanical device, typically one or more fans, located on the inlet air side of the cooling tower.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CoolingTower-MECHANICALINDUCEDDRAFT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CoolingTower;1"],
+		"displayName": "Mechanical Induced Draft@en",
+		"comment": "air flow is produced by a mechanical device, typically one or more fans, located on the air outlet side of the cooling tower.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:CoolingTower-NATURALDRAFT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:CoolingTower;1"],
+		"displayName": "Natural Draft@en",
+		"comment": "air flow is produced naturally.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Damper;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowController;1"],
+		"displayName": "Damper@en",
+		"comment": "A flow controller in an HVAC duct distribution system and is used to control or modulate the flow of air.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Damper-BACKDRAFTDAMPER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Damper;1"],
+		"displayName": "Back Draft Damper@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0g_pG9hAD1XgJ8pML2mm5H@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Damper-BALANCINGDAMPER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Damper;1"],
+		"displayName": "Balancing Damper@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2p0wEtbSj4gxlyI6mhADq2@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Damper-BLASTDAMPER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Damper;1"],
+		"displayName": "Blast Damper@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/369EqwVYL9pfnNqcXnoDHU@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Damper-CONTROLDAMPER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Damper;1"],
+		"displayName": "Control Damper@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2rVf7QFRTEWOLI2fZJuW7H@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Damper-FIREDAMPER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Damper;1"],
+		"displayName": "Fire Damper@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3mqiUJIz57JBFFnuqvB3qT@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Damper-FIRESMOKEDAMPER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Damper;1"],
+		"displayName": "Fire Smoke Damper@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3fTPn78FL2kPB6iokOAbpY@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Damper-FUMEHOODEXHAUST;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Damper;1"],
+		"displayName": "Fume Hood Exhaust@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1U6ESQrqDFCPr0rdPKWCka@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Damper-GRAVITYDAMPER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Damper;1"],
+		"displayName": "Gravity Damper@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1A$dgK16XE_x2gK7uacSn3@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Damper-GRAVITYRELIEFDAMPER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Damper;1"],
+		"displayName": "Gravity Relief Damper@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/26urqKngv5ve948m7Tso_5@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Damper-RELIEFDAMPER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Damper;1"],
+		"displayName": "Relief Damper@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0CQxb8jqP12etStsVhj0a2@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Damper-SMOKEDAMPER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Damper;1"],
+		"displayName": "Smoke Damper@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1vKdAZIn1BaBKbLSz3Ygwn@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DistributionChamberElement;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionFlowElement;1"],
+		"displayName": "Distribution Chamber Element@en",
+		"comment": "A place at which distribution systems and their constituent elements may be inspected or through which they may travel.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DistributionChamberElement-FORMEDDUCT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionChamberElement;1"],
+		"displayName": "Formed Duct@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/02IcnFZFL5vOjShoJLi_XK@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DistributionChamberElement-INSPECTIONCHAMBER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionChamberElement;1"],
+		"displayName": "Inspection Chamber@en",
+		"comment": "chamber constructed on a drain, sewer or pipeline with a removable cover that permits visble inspection@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DistributionChamberElement-INSPECTIONPIT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionChamberElement;1"],
+		"displayName": "Inspection Pit@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/05cbWWHhL7kgrWsi2U6_yV@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DistributionChamberElement-MANHOLE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionChamberElement;1"],
+		"displayName": "Manhole@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1bbvZoH6X72QXL2iztFvrY@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DistributionChamberElement-METERCHAMBER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionChamberElement;1"],
+		"displayName": "Meter Chamber@en",
+		"comment": "chamber that houses a meter(s)@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DistributionChamberElement-SUMP;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionChamberElement;1"],
+		"displayName": "Sump@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/013MAut7T66e3F7FQ6GSpz@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DistributionChamberElement-TRENCH;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionChamberElement;1"],
+		"displayName": "Trench@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2yGBCxZDXDlBMJTgQNqhCM@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DistributionChamberElement-VALVECHAMBER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionChamberElement;1"],
+		"displayName": "Valve Chamber@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1JHK2axxvBXQ7W3Ey18QZW@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DistributionControlElement;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionElement;1"],
+		"displayName": "Distribution Control Element@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3U4sRnv$D80uOqEQZrMx_Z@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DistributionElement;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SomeItems;1", "dtmi:be:pauwel:pi:voc:distributionelement:Product;1"],
+		"displayName": "Distribution Element@en",
+		"comment": "A generalization of all elements that participate in a distribution system. @en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DistributionFlowElement;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionElement;1"],
+		"displayName": "Distribution Flow Element@en",
+		"comment": "A distribution element defined by occurrence elements of a distribution system that facilitate the distribution of energy or matter, such as air, water or power.\r\nExamples are ducts, pipes, wires, fittings, and equipment.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DuctFitting;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowFitting;1"],
+		"displayName": "Duct Fitting@en",
+		"comment": "A junction or transition in a ducted flow distribution system or used to connect duct segments, resulting in changes in flow characteristics to the fluid such as direction and flow rate.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DuctFitting-BEND;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DuctFitting;1"],
+		"displayName": "Bend@en",
+		"comment": "a fitting with typically two ports used to change the direction of flow between connected elements@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DuctFitting-CONNECTOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DuctFitting;1"],
+		"displayName": "Connector@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2uxftRh$fAkhgUKLmF1KRz@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DuctFitting-ENTRY;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DuctFitting;1"],
+		"displayName": "Entry@en",
+		"comment": "entry fitting, typically unconnected at one port and connected to a flow distribution system at the other (e.g., an outside air duct system intake opening)@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DuctFitting-EXIT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DuctFitting;1"],
+		"displayName": "Exit@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0VmlPFMi57uO7GMaLeI9HP@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DuctFitting-JUNCTION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DuctFitting;1"],
+		"displayName": "Junction@en",
+		"comment": "a fitting with typically more than two ports used to redistribute flow among the ports and/or to change the direction of flow between connected elements (e.g, tee, cross, wye, etc.)@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DuctFitting-OBSTRUCTION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DuctFitting;1"],
+		"displayName": "Obstruction@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0_eTgdHQn7MwoGtRPOoi4r@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DuctFitting-TRANSITION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DuctFitting;1"],
+		"displayName": "Transition@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1JknxHMCfDq9zypxDIsX5P@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DuctSegment;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowSegment;1"],
+		"displayName": "Duct Segment@en",
+		"comment": "Used to typically join two sections of duct network.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DuctSegment-FLEXIBLESEGMENT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DuctSegment;1"],
+		"displayName": "Flexible Duct Segment@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2nqUfs2mn9YQ_jGNKRyiPP@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DuctSegment-RIGIDSEGMENT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DuctSegment;1"],
+		"displayName": "Rigid Duct Segment@en",
+		"comment": "a rigid segment is a continuous linear segment of duct that cannot be deformed@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DuctSilencer;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowTreatmentDevice;1"],
+		"displayName": "Duct Silencer@en",
+		"comment": "A device that is typically installed inside a duct distribution system for the purpose of reducing the noise levels from air movement, fan noise, etc. in the adjacent space or downstream of the duct silencer device.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DuctSilencer-FLATOVAL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DuctSilencer;1"],
+		"displayName": "Flat Oval Duct Silencer@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0VN55_f5zDDwQXiRI$8Z_y@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DuctSilencer-RECTANGULAR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DuctSilencer;1"],
+		"displayName": "Rectangular Duct Silencer@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3NtvXddFX5JRlghR5mPion@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:DuctSilencer-ROUND;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DuctSilencer;1"],
+		"displayName": "Round Duct Silencer@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0Pab9zW$v0E8Xbyt9Joo2A@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowTerminal;1"],
+		"displayName": "Appareil électrique@fr-fr",
+		"comment": "A device intended for consumer usage that is powered by electricity.\r\nMay be fixed in place or able to be moved from one space to another. Requires an electrical supply that may be supplied either by an electrical circuit or provided from a local battery source.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance-DISHWASHER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance;1"],
+		"displayName": "Dishwasher@en",
+		"comment": "an appliance that has the primary function of washing dishes@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance-ELECTRICCOOKER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance;1"],
+		"displayName": "Electric Cooker@en",
+		"comment": "an electrical appliance that has the primary function of cooking food (including oven, hob, grill)@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance-FREESTANDINGELECTRICHEATER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance;1"],
+		"displayName": "Free Standing Electric Heater@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2vmsBMt5f6vOIJtsLV43C5@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance-FREESTANDINGFAN;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance;1"],
+		"displayName": "Free Standing Fan@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1sbx$V$pfE3gA1HPGomlqC@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance-FREESTANDINGWATERCOOLER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance;1"],
+		"displayName": "Free Standing Water Cooler@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2GNk4XczH2a9Bo486M2Dhf@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance-FREESTANDINGWATERHEATER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance;1"],
+		"displayName": "Free Standing Water Heater@en",
+		"comment": "a small, local electrical appliance for heating water. a freestanding water heater is a 'plugged' appliance whose load may be removed from an electric circuit@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance-FREEZER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance;1"],
+		"displayName": "Freezer@en",
+		"comment": "an electrical appliance that has the primary function of storing food at temperatures below the freezing point of water@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance-FRIDGE_FREEZER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance;1"],
+		"displayName": "Fridge Freezer@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2$l6h0fcP1u9I_bcu2_2t0@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance-HANDDRYER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance;1"],
+		"displayName": "Hand Dryer@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0MdGYaJi90Ugvs9F4IBH45@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance-KITCHENMACHINE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance;1"],
+		"displayName": "Kitchen Machine@en",
+		"comment": "a specialized appliance used in commercial kitchens such as a mixer@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance-MICROWAVE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance;1"],
+		"displayName": "MicroWave@en",
+		"comment": "an electrical appliance that has the primary function of cooking food using microwaves@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance-PHOTOCOPIER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance;1"],
+		"displayName": "Photocopier@en",
+		"comment": "a machine that has the primary function of reproduction of printed matter@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance-REFRIGERATOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance;1"],
+		"displayName": "Koelkast@nl-nl",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2lIWS0WJmHu000025QrE$V@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance-TUMBLEDRYER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance;1"],
+		"displayName": "Tumble Dryer@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3vHWUCoT0Hsm00051Mm008@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance-VENDINGMACHINE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance;1"],
+		"displayName": "Vending Machine@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3a1GPgbGb4HhfJfWNNnwRG@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance-WASHINGMACHINE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricAppliance;1"],
+		"displayName": "Washing Machine@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3nK_JH93v5JRpo7imsOJm6@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricDistributionBoard;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowController;1"],
+		"displayName": "Electric Distribution Board@en",
+		"comment": "A flow controller in which instances of electrical devices are brought together at a single place for a particular purpose. A distribution provides a housing for connected electrical distribution elements so that they can be viewed, operated or acted upon from a single place. Each connected item may have its own geometric representation and location.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricDistributionBoard-CONSUMERUNIT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricDistributionBoard;1"],
+		"displayName": "Consumer Unit@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/02vRNiXL17Ng6A0tyY3IZm@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricDistributionBoard-DISTRIBUTIONBOARD;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricDistributionBoard;1"],
+		"displayName": "Distribution Board@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2t_kmsr_9FbOzG08gdq5sn@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricDistributionBoard-MOTORCONTROLCENTRE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricDistributionBoard;1"],
+		"displayName": "Motor Control Centre@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/23gvwO2$16qPz5TGUDljzB@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricDistributionBoard-SWITCHBOARD;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricDistributionBoard;1"],
+		"displayName": "Switch Board@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3XP0I3Joj7y8AYq9ASPean@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricFlowStorageDevice;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowStorageDevice;1"],
+		"displayName": "Electric Flow Storage Device@en",
+		"comment": "A device in which electrical energy is stored and from which energy may be progressively released.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricFlowStorageDevice-BATTERY;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricFlowStorageDevice;1"],
+		"displayName": "Battery@en",
+		"comment": "a device for storing energy in chemical form so that it can be released as electrical energy@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricFlowStorageDevice-CAPACITORBANK;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricFlowStorageDevice;1"],
+		"displayName": "Capacitor Bank@en",
+		"comment": "a device that stores electrical energy when an external power supply is present using the electrical property of capacitance@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricFlowStorageDevice-HARMONICFILTER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricFlowStorageDevice;1"],
+		"displayName": "Harmonic Filter@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3CCGbA$dfCHxGIK0Zz2C08@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricFlowStorageDevice-INDUCTORBANK;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricFlowStorageDevice;1"],
+		"displayName": "Inductor Bank@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0s_ACAnfD8YAPin0isHx0d@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricFlowStorageDevice-UPS;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricFlowStorageDevice;1"],
+		"displayName": "UPS@en",
+		"comment": "a device that provides a time limited alternative source of power supply in the event of failure of the main supply@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricGenerator;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EnergyConversionDevice;1"],
+		"displayName": "Electric Generator@en",
+		"comment": "An engine that is a machine for converting mechanical energy into electrical energy.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricGenerator-CHP;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricGenerator;1"],
+		"displayName": "CHP@en",
+		"comment": "combined heat and power supply, used not only as a source of electric energy but also as a heating source for the building. it may therefore be not only part of an electrical system but also of a heating system@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricGenerator-ENGINEGENERATOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricGenerator;1"],
+		"displayName": "Engine Generator@en",
+		"comment": "electrical generator with a fuel-driven engine, for example a diesel-driven emergency power supply@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricGenerator-STANDALONE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricGenerator;1"],
+		"displayName": "Standalone Generator@en",
+		"comment": "electrical generator which does not include its source of kinetic energy, that is, a motor, engine, or turbine are all modeled separately@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricMotor;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EnergyConversionDevice;1"],
+		"displayName": "Electric Motor@en",
+		"comment": "An engine that is a machine for converting electrical energy into mechanical energy.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricMotor-DC;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricMotor;1"],
+		"displayName": "DC - motor@nb-no",
+		"comment": "a motor using either generated or rectified Direct Current (DC) power@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricMotor-INDUCTION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricMotor;1"],
+		"displayName": "Induction Motor@en",
+		"comment": "an alternating current motor in which the primary winding on one member (usually the stator) is connected to the power source and a secondary winding or a squirrel-cage secondary winding on the other member (usually the rotor) carries the induced current. there is no physical electrical connection to the secondary winding, its current is induced@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricMotor-POLYPHASE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricMotor;1"],
+		"displayName": "Polyphase Motor@en",
+		"comment": "a two or three-phase induction motor in which the windings, one for each phase, are evenly divided by the same number of electrical degrees@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricMotor-RELUCTANCESYNCHRONOUS;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricMotor;1"],
+		"displayName": "Reluctance Synchronous Motor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2lD9V5iynEBB3XgItdjfos@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricMotor-SYNCHRONOUS;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricMotor;1"],
+		"displayName": "Synchronous Motor@en",
+		"comment": "a motor that operates at a constant speed up to full load. the rotor speed is equal to the speed of the rotating magnetic field of the stator; there is no slip@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricTimeControl;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowController;1"],
+		"displayName": "Electric Time Control@en",
+		"comment": "A device that applies control to the provision or flow of electrical energy over time.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricTimeControl-RELAY;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricTimeControl;1"],
+		"displayName": "Relay@en",
+		"comment": "electromagnetically operated contactor for making or breaking a control circuit@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricTimeControl-TIMECLOCK;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricTimeControl;1"],
+		"displayName": "Time Clock@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3_BiobHgL589mZt5gGZ6vc@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ElectricTimeControl-TIMEDELAY;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ElectricTimeControl;1"],
+		"displayName": "Time Delay@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1frllCTITFVANbn$YJ11RW@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:EnergyConversionDevice;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionFlowElement;1"],
+		"displayName": "Energiewandler@de-de",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1VQ1GZZDD2pvhjZ8ZKtCoL@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Engine;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EnergyConversionDevice;1"],
+		"displayName": "Engine@en",
+		"comment": "A device that converts fuel into mechanical energy through combustion.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Engine-EXTERNALCOMBUSTION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Engine;1"],
+		"displayName": "External Combustion Engine@en",
+		"comment": "combustion is external@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Engine-INTERNALCOMBUSTION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Engine;1"],
+		"displayName": "Internal Combustion Engine@en",
+		"comment": "combustion is internal@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:EvaporativeCooler;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EnergyConversionDevice;1"],
+		"displayName": "Evaporative Cooler@en",
+		"comment": "A device that cools air by saturating it with water vapor.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:EvaporativeCooler-DIRECTEVAPORATIVEAIRWASHER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EvaporativeCooler;1"],
+		"displayName": "Direct Evaporative Air Washer@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1mfNeZzsr75wDjPDHJlb4H@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:EvaporativeCooler-DIRECTEVAPORATIVEPACKAGEDROTARYAIRCOOLER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EvaporativeCooler;1"],
+		"displayName": "Direct Evaporative Packaged Rotary Air Cooler@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1cj7p5WhDB_xBonDIVd_4z@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:EvaporativeCooler-DIRECTEVAPORATIVERANDOMMEDIAAIRCOOLER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EvaporativeCooler;1"],
+		"displayName": "Direct Evaporative Random Media Air Cooler@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0UORhKPhjCL85YKa2Bnb3r@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:EvaporativeCooler-DIRECTEVAPORATIVERIGIDMEDIAAIRCOOLER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EvaporativeCooler;1"],
+		"displayName": "Direct Evaporative Rigid Media Air Cooler@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0MWgqKd0z5GPNm6aaAnj5C@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:EvaporativeCooler-DIRECTEVAPORATIVESLINGERSPACKAGEDAIRCOOLER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EvaporativeCooler;1"],
+		"displayName": "Direct Evaporative Slingers Packaged Air Cooler@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/16b3LdCezBDPr$dY5Jspfu@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:EvaporativeCooler-INDIRECTDIRECTCOMBINATION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EvaporativeCooler;1"],
+		"displayName": "Indirect Direct Combination@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0m3PNQ2HLCZxrflh7tIhW4@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:EvaporativeCooler-INDIRECTEVAPORATIVECOOLINGTOWERORCOILCOOLER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EvaporativeCooler;1"],
+		"displayName": "Indirect Evaporative Cooling Tower Or Coil Cooler@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2NrTpcYUv9zg$5$$fO_19L@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:EvaporativeCooler-INDIRECTEVAPORATIVEPACKAGEAIRCOOLER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EvaporativeCooler;1"],
+		"displayName": "Indirect Evaporative Package Air Cooler@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0jmwDswxz4_AQl2__GUqUv@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:EvaporativeCooler-INDIRECTEVAPORATIVEWETCOIL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EvaporativeCooler;1"],
+		"displayName": "Indirect Evaporative Wet Coil@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1LV$DC3_H2PQ4WPTuDrKrT@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Evaporator;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EnergyConversionDevice;1"],
+		"displayName": "Evaporateur@fr-fr",
+		"comment": "A liquid refrigerant is vaporized and absorbs heat from the surrounding fluid.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Evaporator-DIRECTEXPANSION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Evaporator;1"],
+		"displayName": "Direct Expansion@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/09VTDOubL8rQM9Zzgh3ZOX@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Evaporator-DIRECTEXPANSIONBRAZEDPLATE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Evaporator;1"],
+		"displayName": "Direct Expansion Brazed Plate@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1T3UjVbrn8GRRfXuXNLYnr@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Evaporator-DIRECTEXPANSIONSHELLANDTUBE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Evaporator;1"],
+		"displayName": "Direct Expansion Shell And Tube@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1u9oqdehL1dgBJ6OLyn3QA@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Evaporator-DIRECTEXPANSIONTUBEINTUBE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Evaporator;1"],
+		"displayName": "Direct Expansion Tube In Tube@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3sib_FFsX9OPAtp2_avAxn@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Evaporator-FLOODEDSHELLANDTUBE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Evaporator;1"],
+		"displayName": "Flooded Shell And Tube@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0ccrsyQl54TBm8fRTQgQ74@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Evaporator-SHELLANDCOIL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Evaporator;1"],
+		"displayName": "Shell And Coil@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/30V2jCzRrB$APJOlZf7jhx@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Fan;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowMovingDevice;1"],
+		"displayName": "Fan@en",
+		"comment": "A device which imparts mechanical work on a gas. A typical usage of a fan is to induce airflow in a building services air distribution system.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Fan-CENTRIFUGALAIRFOIL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Fan;1"],
+		"displayName": "Centrifugal Air Foil@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2b2DdpoeD2DebGtqb8$WWB@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Fan-CENTRIFUGALBACKWARDINCLINEDCURVED;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Fan;1"],
+		"displayName": "Centrifugal Backward Inclined Curved Fan@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2947TJClP4iRuoq1E3mkRW@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Fan-CENTRIFUGALFORWARDCURVED;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Fan;1"],
+		"displayName": "Centrifugal Forward Curved Fan@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2BtF98qKP9pAJgsmJrKTcX@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Fan-CENTRIFUGALRADIAL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Fan;1"],
+		"displayName": "Centrifugal Radial Fan@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3ZTCLrBaz0NwkdZhJ1jzAB@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Fan-PROPELLORAXIAL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Fan;1"],
+		"displayName": "Propellor Axial Fan@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0B7IEewCf7DPbZs58QORZ_@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Fan-TUBEAXIAL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Fan;1"],
+		"displayName": "Tube Axial Fan@en",
+		"comment": "air flows through the impeller axially with reduced tip clearance and operating at higher tip speeds@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Fan-VANEAXIAL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Fan;1"],
+		"displayName": "Vane Axial Fan@en",
+		"comment": "air flows through the impeller axially with guide vanes and reduced running blade tip clearance@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Filter;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowTreatmentDevice;1"],
+		"displayName": "Filter@en",
+		"comment": "An apparatus used to remove particulate or gaseous matter from fluids and gases@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Filter-AIRPARTICLEFILTER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Filter;1"],
+		"displayName": "Air Particle Filter@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2ha4cuVrn2CO6DtVG5m_2l@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Filter-COMPRESSEDAIRFILTER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Filter;1"],
+		"displayName": "Compressed Air Filter@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3eXdymzEL2WwWgDskL3E7I@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Filter-ODORFILTER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Filter;1"],
+		"displayName": "Odor Filter@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0Nh$mYaRT13xMPbS$8vqwW@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Filter-OILFILTER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Filter;1"],
+		"displayName": "Oil Filter@en",
+		"comment": "a filter used to remove particulates from oil@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Filter-STRAINER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Filter;1"],
+		"displayName": "Siebe@de-de",
+		"comment": "A fitting for preventing that leaves enters the down-pipe@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Filter-WATERFILTER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Filter;1"],
+		"displayName": "Water Filter@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3IqBAp0Tv5HxjI8BQo7oFW@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FireSuppressionTerminal;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowTerminal;1"],
+		"displayName": "Appareil terminal d'extinction d'incendie@fr-fr",
+		"comment": "A suppression terminal has the purpose of delivering a fluid (gas or liquid) that will suppress a fire.\r\nProvides for all forms of sprinkler, spreader and other form of terminal that is connected to a pipework system and intended to act in the role of suppressing a fire.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FireSuppressionTerminal-BREECHINGINLET;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FireSuppressionTerminal;1"],
+		"displayName": "Breeching Inlet@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/00IdsJ7iT7Nx$veMrXzcqM@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FireSuppressionTerminal-FIREHYDRANT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FireSuppressionTerminal;1"],
+		"displayName": "Fire Hydrant@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1esoBNGDb2wOo3IcBnG9Zv@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FireSuppressionTerminal-HOSEREEL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FireSuppressionTerminal;1"],
+		"displayName": "Hosereel@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3BjPDggX5A1uWncjNaSpTp@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FireSuppressionTerminal-SPRINKLER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FireSuppressionTerminal;1"],
+		"displayName": "Sprinkler@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/09wWrp7P91aASjo0_dry01@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FireSuppressionTerminal-SPRINKLERDEFLECTOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FireSuppressionTerminal;1"],
+		"displayName": "Sprinkler Deflector@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2LU6yVzZT7U8X4VneBA$Bh@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FlowController;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionFlowElement;1"],
+		"displayName": "Flow Controller@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1iDky6Xqz0NhbMNjWBjWCy@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FlowFitting;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionFlowElement;1"],
+		"displayName": "Flow Fitting@en",
+		"comment": "Elkraftfordeling til driftstekniske installasjoner@nb-no"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FlowInstrument;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionControlElement;1"],
+		"displayName": "Flow Instrument@en",
+		"comment": "An instrument reads and displays the flow value of a particular property of a system at a point, or displays the difference in the value of a property between two points.\r\nTypically for the purpose of determining the value of the property at a point in time. Includes  forms of mechanical flow instrument (thermometers, pressure gauges etc.) and electrical flow instruments (ammeters, voltmeters etc.)@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FlowInstrument-AMMETER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowInstrument;1"],
+		"displayName": "AMMeter@en",
+		"comment": "a device that reads and displays the current flow in a circuit@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FlowInstrument-FREQUENCYMETER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowInstrument;1"],
+		"displayName": "Frequency Meter@en",
+		"comment": "a device that reads and displays the electrical frequency of an alternating current circuit.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FlowInstrument-PHASEANGLEMETER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowInstrument;1"],
+		"displayName": "Phase-Angle Meter@en",
+		"comment": "a device that reads and displays the phase angle of a phase in a polyphase electrical circuit@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FlowInstrument-POWERFACTORMETER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowInstrument;1"],
+		"displayName": "Power Factor Meter@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1P$PbnF35AFwKgPqjZPzC0@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FlowInstrument-PRESSUREGAUGE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowInstrument;1"],
+		"displayName": "Pressure Gauge@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0OE6$aHKjCBBgczwu$WIy0@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FlowInstrument-THERMOMETER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowInstrument;1"],
+		"displayName": "Temperaturmeßgerät@de-de",
+		"comment": "Måler og viser temperatur analogt@nb-no"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FlowInstrument-VOLTMETER_PEAK;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowInstrument;1"],
+		"displayName": "Peak Volt Meter@en",
+		"comment": "a device that reads and displays the peak voltage in an electrical circuit@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FlowInstrument-VOLTMETER_RMS;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowInstrument;1"],
+		"displayName": "RMS Volt Meter@en",
+		"comment": "a device that reads and displays the RMS (mean) voltage in an electrical circuit@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FlowMeter;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowController;1"],
+		"displayName": "Appareil de mesure de débit@fr-fr",
+		"comment": "A device that is used to measure the flow rate in a system.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FlowMeter-ENERGYMETER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowMeter;1"],
+		"displayName": "Energy Meter@en",
+		"comment": "device that measures, indicates and sometimes records, the energy usage in a system@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FlowMeter-GASMETER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowMeter;1"],
+		"displayName": "Gas Meter@en",
+		"comment": "device that measures, indicates and sometimes records, the volume of gas that passes through it without interrupting the flow@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FlowMeter-OILMETER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowMeter;1"],
+		"displayName": "Oil Meter@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2HD3O5A6XAmQiJv54wilAx@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FlowMeter-WATERMETER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowMeter;1"],
+		"displayName": "Water Meter@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2bpgnuN4XCdOPs0pKS1wP1@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FlowMovingDevice;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionFlowElement;1"],
+		"displayName": "Flow Moving Device@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1z188Qjir3JArIaN1C$Jlp@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FlowSegment;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionFlowElement;1"],
+		"displayName": "Flow Segment@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3pgLxEkmTCmg6JWI8OZE4J@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FlowStorageDevice;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionFlowElement;1"],
+		"displayName": "Flow Storage Device@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/32pa_OQBP6exzNXNT$7YTr@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FlowTerminal;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionFlowElement;1"],
+		"displayName": "Endgerät (allgemein)@de-de",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2zsZIJsQfBq98RWGNFmix9@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:FlowTreatmentDevice;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionFlowElement;1"],
+		"displayName": "Filter@de-de",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/358GrBQjP36vPq9aYtgYQa@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:HeatExchanger;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EnergyConversionDevice;1"],
+		"displayName": "Echangeur de chaleur@fr-fr",
+		"comment": "A device used to provide heat transfer between non-mixing media such as plate and shell and tube heat exchangers. Commonly used on water-side distribution systems to recover energy from a liquid to another liquid (typically water-based).@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:HeatExchanger-PLATE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:HeatExchanger;1"],
+		"displayName": "Plate Heat Exchanger@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2pALi8Jfv7Se_pR4H3dTaH@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:HeatExchanger-SHELLANDTUBE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:HeatExchanger;1"],
+		"displayName": "Shell And Tube Heat Exchanger@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1h3yHT$MPE0BoJuFFtf4$5@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Humidifier;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EnergyConversionDevice;1"],
+		"displayName": "Befeuchter@de-de",
+		"comment": "A device that adds moisture into the air.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Humidifier-ADIABATICAIRWASHER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Humidifier;1"],
+		"displayName": "Adiabatic Air Washer@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2MNV0vgOv328qlczPJ03OC@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Humidifier-ADIABATICATOMIZING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Humidifier;1"],
+		"displayName": "Adiabatic Atomizing@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1K4HZEHEv1wQ19Vzk48Sgn@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Humidifier-ADIABATICCOMPRESSEDAIRNOZZLE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Humidifier;1"],
+		"displayName": "Adiabatic Compressed Air Nozzle@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2HCfOW4In2BREPSqe5Ms$p@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Humidifier-ADIABATICPAN;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Humidifier;1"],
+		"displayName": "Adiabatic Pan@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3d9dTNKyPFRRor9abHmtji@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Humidifier-ADIABATICRIGIDMEDIA;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Humidifier;1"],
+		"displayName": "Adiabatic Rigid Media@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0RD4N$yNr7jQPEzfNuNDtm@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Humidifier-ADIABATICULTRASONIC;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Humidifier;1"],
+		"displayName": "Adiabatic Ultra Sonic@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0LHdcNpKzA9fe_4pzr59WD@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Humidifier-ADIABATICWETTEDELEMENT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Humidifier;1"],
+		"displayName": "Adiabatic Wetted Element@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3K$6EMdYfCzPmmFTgegHDy@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Humidifier-ASSISTEDBUTANE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Humidifier;1"],
+		"displayName": "Assisted Butane@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2VKdEEkCn1ghIvaWPax9j3@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Humidifier-ASSISTEDELECTRIC;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Humidifier;1"],
+		"displayName": "Assisted Electric@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/157UtcquX8d8khI$Nxg6Dg@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Humidifier-ASSISTEDNATURALGAS;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Humidifier;1"],
+		"displayName": "Assisted Natural Gas@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2y1ecVVOv7Lfs9vbXts2uj@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Humidifier-ASSISTEDPROPANE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Humidifier;1"],
+		"displayName": "Assisted Propane@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1Byt2bBk58pg9rdsh_tvnd@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Humidifier-ASSISTEDSTEAM;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Humidifier;1"],
+		"displayName": "Assisted Steam@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2INKwOIaXFgxGMKSsCa2Lm@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Humidifier-STEAMINJECTION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Humidifier;1"],
+		"displayName": "Steam Injection@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/05OOwwH2b5pwbQqrAayAR1@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Interceptor;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowTreatmentDevice;1"],
+		"displayName": "Abscheider@de-de",
+		"comment": "A device designed and installed in order to separate and retain deleterious, hazardous or undesirable matter while permitting normal sewage or liquids to discharge into a collection system by gravity.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Interceptor-CYCLONIC;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Interceptor;1"],
+		"displayName": "Cyclonic Interceptor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2RxuKardj99Q$KLR33Cbq6@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Interceptor-GREASE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Interceptor;1"],
+		"displayName": "Grease Interceptor@en",
+		"comment": "chamber, on the line of a drain or discharge pipe, that prevents grease passing into a drainage system@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Interceptor-OIL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Interceptor;1"],
+		"displayName": "Oil Interceptor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0efFn8L559X8O9PLL0mkNu@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Interceptor-PETROL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Interceptor;1"],
+		"displayName": "Petrol Interceptor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3AfygEMd1AwBWNHSyfyIiI@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:JunctionBox;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowFitting;1"],
+		"displayName": "Boite de jonction@fr-fr",
+		"comment": "An enclosure within which cables are connected. Cables may be members of an electrical circuit (for electrical power systems) or be information carriers (in a telecommunications system). Typically intended to conceal a cable junction from sight, eliminate tampering or provide a safe place for electrical connection.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:JunctionBox-DATA;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:JunctionBox;1"],
+		"displayName": "Data@en",
+		"comment": "contains cables, outlets, and/or switches for communications use@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:JunctionBox-POWER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:JunctionBox;1"],
+		"displayName": "Power@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2rfL__S75EcOfkEgBpZV_b@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Lamp;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowTerminal;1"],
+		"displayName": "Lamp@en",
+		"comment": "An artificial light source such as a light bulb or tube.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Lamp-COMPACTFLUORESCENT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Lamp;1"],
+		"displayName": "Compact Fluorescent@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3zxJlrQUXE3BF9p3XFK9sV@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Lamp-FLUORESCENT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Lamp;1"],
+		"displayName": "Fluorescent@en",
+		"comment": "a typically tubular discharge lamp in which most of the light is emitted by one or several layers of phosphors excited by ultraviolet radiation from the discharge.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Lamp-HALOGEN;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Lamp;1"],
+		"displayName": "Halogen@en",
+		"comment": "a gas-filled, high-intensity incandescent lamp containing a small amount of a halogen@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Lamp-HIGHPRESSUREMERCURY;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Lamp;1"],
+		"displayName": "High Pressure Mercury@en",
+		"comment": "a discharge lamp in which most of the light is emitted by exciting mercury at high pressure@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Lamp-HIGHPRESSURESODIUM;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Lamp;1"],
+		"displayName": "High Pressure Sodium@en",
+		"comment": "a discharge lamp in which most of the light is emitted by exciting sodium at high pressure@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Lamp-LED;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Lamp;1"],
+		"displayName": "LED@en",
+		"comment": "a light-emitting diode (LED) is a semiconductor device that emits visible light when an electric current passes through it.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Lamp-METALHALIDE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Lamp;1"],
+		"displayName": "Metal Halide@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3esdl$BJXD9htEWoSEpsDg@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Lamp-OLED;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Lamp;1"],
+		"displayName": "OLED@en",
+		"comment": "a solid state lamp that uses light-emitting diodes as the source of light whose emissive electroluminescent layer is composed of a film of organic compounds@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Lamp-TUNGSTENFILAMENT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Lamp;1"],
+		"displayName": "Tungsten Filament@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3n5ZYbHnnBuhtIMoheS78j@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:LightFixture;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowTerminal;1"],
+		"displayName": "Fixation de lampe@fr-fr",
+		"comment": "A container that is designed for the purpose of housing one or more lamps and optionally devices that control, restrict or vary their emission.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:LightFixture-DIRECTIONSOURCE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:LightFixture;1"],
+		"displayName": "Direction Source@en",
+		"comment": "a light fixture that is considered to have a length or surface area from which it emits light in a direction. a light fixture containing one or more fluorescent lamps is an example of a direction source@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:LightFixture-POINTSOURCE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:LightFixture;1"],
+		"displayName": "Point Source@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1bOvnRIgnDhuRposkK0D7b@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:LightFixture-SECURITYLIGHTING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:LightFixture;1"],
+		"displayName": "Security Lighting@en",
+		"comment": "a light fixture having specific purpose of directing occupants in an emergency, such as an illuminated exit sign or emergency flood light@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:MedicalDevice;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowTerminal;1"],
+		"displayName": "Equipement médical@fr-fr",
+		"comment": "A device is attached to a medical piping system and operates upon medical gases to perform a specific function. Medical gases include medical air, medical vacuum, oxygen, carbon dioxide, nitrogen, and nitrous oxide.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:MedicalDevice-AIRSTATION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:MedicalDevice;1"],
+		"displayName": "Air Station@en",
+		"comment": "device that provides purified medical air, composed of an air compressor and air treatment line@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:MedicalDevice-FEEDAIRUNIT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:MedicalDevice;1"],
+		"displayName": "Feed Air Unit@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0L4vXkvln2MRDKPQngnIZ1@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:MedicalDevice-OXYGENGENERATOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:MedicalDevice;1"],
+		"displayName": "Oxygen Generator@en",
+		"comment": "device that generates oxygen from air@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:MedicalDevice-OXYGENPLANT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:MedicalDevice;1"],
+		"displayName": "Oxygen Plant@en",
+		"comment": "device that combines a feed air unit, oxygen generator, and backup oxygen cylinders@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:MedicalDevice-VACUUMSTATION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:MedicalDevice;1"],
+		"displayName": "Vacuum Station@en",
+		"comment": "device that provides suction, composed of a vacuum pump and bacterial filtration line@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:MotorConnection;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EnergyConversionDevice;1"],
+		"displayName": "Connection du moteur@fr-fr",
+		"comment": "The means for connecting a motor as the driving device to the driven device.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:MotorConnection-BELTDRIVE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:MotorConnection;1"],
+		"displayName": "Belt Drive Motor Connection@en",
+		"comment": "an indirect connection made through the medium of a shaped, flexible continuous loop@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:MotorConnection-COUPLING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:MotorConnection;1"],
+		"displayName": "Coupling Motor Connection@en",
+		"comment": "an indirect connection made through the medium of the viscosity of a fluid@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:MotorConnection-DIRECTDRIVE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:MotorConnection;1"],
+		"displayName": "Direct Drive Motor Connection@en",
+		"comment": "a direct, physical connection made between the motor and the driven device@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Outlet;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowTerminal;1"],
+		"displayName": "Dose@de-de",
+		"comment": "A device installed at a point to receive one or more inserted plugs for electrical power or communications.\r\n@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Outlet-AUDIOVISUALOUTLET;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Outlet;1"],
+		"displayName": "Audiovisual Outlet@en",
+		"comment": "an outlet used for an audio or visual device@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Outlet-COMMUNICATIONSOUTLET;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Outlet;1"],
+		"displayName": "Communications Outlet@en",
+		"comment": "an outlet used for connecting communications equipment@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Outlet-DATAOUTLET;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Outlet;1"],
+		"displayName": "Data Outlet@en",
+		"comment": "an outlet used for connecting data communications equipment@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Outlet-POWEROUTLET;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Outlet;1"],
+		"displayName": "Power Outlet@en",
+		"comment": "an outlet used for connecting electrical devices requiring power@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Outlet-TELEPHONEOUTLET;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Outlet;1"],
+		"displayName": "Telephone Outlet@en",
+		"comment": "an outlet used for connecting telephone communications equipment@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:PipeFitting;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowFitting;1"],
+		"displayName": "Pipe Fitting@en",
+		"comment": "A junction or transition in a piping flow distribution system used to connect pipe segments, resulting in changes in flow characteristics to the fluid such as direction or flow rate. Includes elbows, junctions, manifolds, and plumbing boxes.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:PipeFitting-BEND;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:PipeFitting;1"],
+		"displayName": "Bend@en",
+		"comment": "A fitting for joining the down-pipe in different angles pass blockings@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:PipeFitting-CONNECTOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:PipeFitting;1"],
+		"displayName": "Connector@en",
+		"comment": "device generally consisting of a plate, toothed-plate or ring which, when partly embedded in each or in one of the contact faces of two members and held together by a connecting bolt, is capable of transmitting a load from one member to another@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:PipeFitting-ENTRY;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:PipeFitting;1"],
+		"displayName": "Entry@en",
+		"comment": "entry fitting, typically unconnected at one port and connected to a flow distribution system at the other (e.g., a breeching inlet)@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:PipeFitting-EXIT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:PipeFitting;1"],
+		"displayName": "Exit@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1vLJsY3MX6I8Ss72zp5sN_@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:PipeFitting-JUNCTION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:PipeFitting;1"],
+		"displayName": "Junction@en",
+		"comment": "a fitting with typically more than two ports used to redistribute flow among the ports and/or to change the direction of flow between connected elements (e.g, tee, cross, wye, etc.)@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:PipeFitting-OBSTRUCTION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:PipeFitting;1"],
+		"displayName": "Obstruction@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2gXay6NOz7NPfYIUbDxtmF@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:PipeFitting-TRANSITION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:PipeFitting;1"],
+		"displayName": "Transition@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0mLpncHvn8AguL5g1sYDP7@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:PipeSegment;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowSegment;1"],
+		"displayName": "Pipe Segment@en",
+		"comment": "A segment is used to typically join two sections of a piping network.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:PipeSegment-CULVERT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:PipeSegment;1"],
+		"displayName": "Culvert@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0kbHQAKHrDHfD6TQOe$Myu@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:PipeSegment-FLEXIBLESEGMENT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:PipeSegment;1"],
+		"displayName": "Flexible Pipe Segment@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0bMKZ$AyPEsOOwHPCXcOcT@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:PipeSegment-GUTTER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:PipeSegment;1"],
+		"displayName": "Gutter@en",
+		"comment": "A gutter situated outside the building and supported by brackets@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:PipeSegment-RIGIDSEGMENT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:PipeSegment;1"],
+		"displayName": "Rigid Pipe Segment@en",
+		"comment": "a rigid segment is a continuous linear segment of pipe that cannot be deformed@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:PipeSegment-SPOOL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:PipeSegment;1"],
+		"displayName": "Spool@en",
+		"comment": "a type of rigid segment that is typically shorter and used for providing connectivity within a piping network@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDevice;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowController;1"],
+		"displayName": "Protective Device@en",
+		"comment": "A device breaks an electrical circuit when a stated electric current that passes through it is exceeded.\r\nProvides protection against electrical current only (not as a general protective device).@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDevice-CIRCUITBREAKER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDevice;1"],
+		"displayName": "Circuit Breaker@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3EWAB3Ur5Cng3zn8b4wZEE@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDevice-EARTHINGSWITCH;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDevice;1"],
+		"displayName": "Earthing Switch@en",
+		"comment": "a safety device used to open or close a circuit when there is no current. used to isolate a part of a circuit, a machine, a part of an overhead line or an underground line so that maintenance can be safely conducted@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDevice-EARTHLEAKAGECIRCUITBREAKER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDevice;1"],
+		"displayName": "Earth Leakage Circuit Breaker@en",
+		"comment": "a device that opens, closes, or isolates a circuit and has short circuit protection but no overload protection. it attempts to break the circuit when there is a leakage of current from phase to earth, by measuring voltage on the earth conductor@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDevice-FUSEDISCONNECTOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDevice;1"],
+		"displayName": "Fuse Disconnector@en",
+		"comment": "a device that will electrically open the circuit after a period of prolonged, abnormal current flow@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDevice-RESIDUALCURRENTCIRCUITBREAKER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDevice;1"],
+		"displayName": "Residual Current Circuit Breaker@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2RbnT6FAn6fxAlZWiSgJ_I@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDevice-RESIDUALCURRENTSWITCH;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDevice;1"],
+		"displayName": "Residual Current Switch@en",
+		"comment": "a device that opens, closes or isolates a circuit and has no short circuit or overload protection. May also be identified as a 'ground fault switch'@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDevice-VARISTOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDevice;1"],
+		"displayName": "Varistor@en",
+		"comment": "a high voltage surge protection device@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDeviceTrippingUnit;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionControlElement;1"],
+		"displayName": "Protective Device Tripping Unit@en",
+		"comment": "A protective device breaks an electrical circuit at a separate breaking unit when a stated electric current that passes through the unit is exceeded.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDeviceTrippingUnit-ELECTROMAGNETIC;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDeviceTrippingUnit;1"],
+		"displayName": "Electro-magnetic@en",
+		"comment": "a tripping unit activated by electromagnetic action@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDeviceTrippingUnit-ELECTRONIC;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDeviceTrippingUnit;1"],
+		"displayName": "Electronic@en",
+		"comment": "a tripping unit activated by electronic action@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDeviceTrippingUnit-RESIDUALCURRENT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDeviceTrippingUnit;1"],
+		"displayName": "Residual Current@en",
+		"comment": "a tripping unit activated by residual current detection.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDeviceTrippingUnit-THERMAL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:ProtectiveDeviceTrippingUnit;1"],
+		"displayName": "Thermal@en",
+		"comment": "a tripping unit activated by thermal action@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Pump;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowMovingDevice;1"],
+		"displayName": "Pump@en",
+		"comment": "A device which imparts mechanical work on fluids to move them through a channel or pipe. @en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Pump-CIRCULATOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Pump;1"],
+		"displayName": "Circulator Pump@en",
+		"comment": "a circulator pump is a generic low-pressure, low-capacity pump. it may have a wet rotor and may be driven by a flexible-coupled motor@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Pump-ENDSUCTION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Pump;1"],
+		"displayName": "End Suction Pump@en",
+		"comment": "an end suction pump, when mounted horizontally, has a single horizontal inlet on the impeller suction side and a vertical discharge. it may have a direct or close-coupled motor@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Pump-SPLITCASE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Pump;1"],
+		"displayName": "Split Case Pump@en",
+		"comment": "a split case pump, when mounted horizontally, has an inlet and outlet on each side of the impeller. the impeller can be easily accessed by removing the front of the impeller casing. It may have a direct or close-coupled motor@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Pump-SUBMERSIBLEPUMP;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Pump;1"],
+		"displayName": "Submersible Pump@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0rpKGArwf1S8H9bk1lkPiT@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Pump-SUMPPUMP;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Pump;1"],
+		"displayName": "Sump Pump@en",
+		"comment": "a pump designed to sit above a collection tank with a suction inlet extending into the tank@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Pump-VERTICALINLINE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Pump;1"],
+		"displayName": "Vertical Inline@en",
+		"comment": "a vertical Inline pump has the pump and motor close-coupled on the pump casing. the pump depends on the connected, horizontal piping for support, with the suction and discharge along the piping axis@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Pump-VERTICALTURBINE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Pump;1"],
+		"displayName": "Vertical Turbine@en",
+		"comment": "a vertical turbine pump has a motor mounted vertically on the pump casing for either wet-pit sump mounting or dry-well mounting@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SanitaryTerminal;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowTerminal;1"],
+		"displayName": "Equipement sanitaire@fr-fr",
+		"comment": "A fixed appliance or terminal usually supplied with water and used for drinking, cleaning or foul water disposal or that is an item of equipment directly used with such an appliance or terminal.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SanitaryTerminal-BATH;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SanitaryTerminal;1"],
+		"displayName": "Badewanne@de-de",
+		"comment": "Badekar@nb-no"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SanitaryTerminal-BIDET;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SanitaryTerminal;1"],
+		"displayName": "Bidet@en",
+		"comment": "Waste water appliance for washing the excretory organs while sitting astride the bowl@en-gb"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SanitaryTerminal-CISTERN;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SanitaryTerminal;1"],
+		"displayName": "Cistern@en",
+		"comment": "A water storage unit attached to a sanitary terminal that is fitted with a device, operated automatically or by the user, that discharges water to cleanse a water closet (toilet) pan, urinal or slop hopper@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SanitaryTerminal-SANITARYFOUNTAIN;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SanitaryTerminal;1"],
+		"displayName": "Sanitary Fountain@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3sjNvgHdPAH8fM1jgV3823@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SanitaryTerminal-SHOWER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SanitaryTerminal;1"],
+		"displayName": "Shower@en",
+		"comment": "Dusj beskyttet med kabinett@nb-no"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SanitaryTerminal-SINK;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SanitaryTerminal;1"],
+		"displayName": "Sink@en",
+		"comment": "Servant@nb-no"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SanitaryTerminal-TOILETPAN;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SanitaryTerminal;1"],
+		"displayName": "Toilet Pan@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2DXU$3jIrFROZFEhM3vmoY@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SanitaryTerminal-URINAL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SanitaryTerminal;1"],
+		"displayName": "Urinal@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2B1zvMQAv9pPzzlnNtd5xA@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SanitaryTerminal-WASHHANDBASIN;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SanitaryTerminal;1"],
+		"displayName": "Wash Hand Basin@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2FTLxQE_19NPX9OHQSeAff@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SanitaryTerminal-WCSEAT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SanitaryTerminal;1"],
+		"displayName": "WC Seat@en",
+		"comment": "hinged seat that fits on the top of a water closet (WC) pan@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionControlElement;1"],
+		"displayName": "Capteur@fr-fr",
+		"comment": "A device that measures a physical quantity and converts it into a signal which can be read by an observer or by an instrument.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-CO2SENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "CO2Sensor@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-CONDUCTANCESENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "Conductance Sensor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3B3V_G55z9nPyFZOVtZKu9@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-CONTACTSENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "Contact Sensor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/37ufVjEi1BZwCCYTaYZdgK@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-FIRESENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "Fire Sensor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1uUUJfLpX03uy3ZC8j0YXd@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-FLOWSENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "Flow Sensor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0uovCUrpn9leYila3fCeEN@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-FROSTSENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "Frost Sensor@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-GASSENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "Gas Sensor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2EQoz$FyT5_wpwhtQt6Bt2@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-HEATSENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "Heat Sensor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3Op4_nqmj6L96LAusX1Ytq@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-HUMIDITYSENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "Humidity Sensor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3Pza_zqrDAwg4Pv44MusVg@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-IDENTIFIERSENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "Identifier Sensor@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-IONCONCENTRATIONSENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "Ion Concentration Sensor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2MglfdfcTCuhCN57KBKgPd@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-LEVELSENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "Level Sensor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2zHVmDmGT6zBRJIAqmQdkK@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-LIGHTSENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "Light Sensor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3Y5B9ubBb0xxK9qw_nEkEk@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-MOISTURESENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "Moisture Sensor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1LnA01HA5E7fPuuXLI2ZjZ@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-MOVEMENTSENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "Movement Sensor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2$qvwDkgL0VRFBeuD9w9Si@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-PHSENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "PH-Sensor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3lwBxJbnL9DAvFoYtIB3Li@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-PRESSURESENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "Pressure Sensor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2RKICtIin2Rw5EFR0Z2J9j@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-RADIATIONSENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "Radiation Sensor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3OXFVvFvPCePgxMcTylRzf@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-RADIOACTIVITYSENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "Radioactivity Sensor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0wp1vLqNP9Lef8Pba4UI6P@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-SMOKESENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "Smoke Sensor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/05gekqn$D9nA81S2HC8u1E@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-SOUNDSENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "Sound Sensor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0OvllOM7fDC8GX67w3ESF6@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-TEMPERATURESENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "Temperature Sensor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2SmjV_2JXB4wdmD4Bzr$BP@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Sensor-WINDSENSOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Sensor;1"],
+		"displayName": "Wind Sensor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1hMN0c8Rj5dw$7eow$VjWU@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SolarDevice;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EnergyConversionDevice;1"],
+		"displayName": "Solar Device@en",
+		"comment": "A device converts solar radiation into other energy such as electric current or thermal energy.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SolarDevice-SOLARCOLLECTOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SolarDevice;1"],
+		"displayName": "Solar Collector@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0fo0nZHmT5twFp0u9haG2I@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SolarDevice-SOLARPANEL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SolarDevice;1"],
+		"displayName": "Solar Panel@en",
+		"comment": "a device that converts solar radiation into electric current@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SpaceHeater;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowTerminal;1"],
+		"displayName": "Heizkörper@de-de",
+		"comment": "Heaters utilize a combination of radiation and/or natural convection using a heating source such as electricity, steam or hot water to heat a limited space or area. Examples of space heaters include radiators, convectors, baseboard and finned-tube heaters.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SpaceHeater-CONVECTOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SpaceHeater;1"],
+		"displayName": "Convector@en",
+		"comment": "a heating appliance which emits heat almost entirely by convection. a convector comprises at least a heat emitter and a casing which provides an unheated convective chimney of defined height.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SpaceHeater-RADIATOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SpaceHeater;1"],
+		"displayName": "Heizkörper@de-de",
+		"comment": "a heat appliance which emits heat by free convection and radiation@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:StackTerminal;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowTerminal;1"],
+		"displayName": "Rohrabdeckung@de-de",
+		"comment": "A terminal placed at the top of a ventilating stack (such as to prevent ingress by birds or rainwater) or rainwater pipe (to act as a collector or hopper for discharge from guttering).@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:StackTerminal-BIRDCAGE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:StackTerminal;1"],
+		"displayName": "Birdcage@en",
+		"comment": "guard cage, typically wire mesh, at the top of the stack preventing access by birds@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:StackTerminal-COWL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:StackTerminal;1"],
+		"displayName": "cowl@en",
+		"comment": "air terminal device intended to be installed above a natural ventilation exhaust duct with the aim, by creating negative pressure and depending on wind speed, of avoiding reverse flow and increasing flow rate@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:StackTerminal-RAINWATERHOPPER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:StackTerminal;1"],
+		"displayName": "Rainwater Hopper@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0tlwEdOcDExuy98lwa6_38@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SwitchingDevice;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowController;1"],
+		"displayName": "Interrupteur@fr-fr",
+		"comment": "A switch used in a cable distribution system (electrical circuit) to control or modulate the flow of electricity. Include those used for electrical power, communications, audio-visual, or other distribution system types as determined by the available ports.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SwitchingDevice-CONTACTOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SwitchingDevice;1"],
+		"displayName": "Contactor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3rxqi3mzn8ovp5j4$AtKpj@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SwitchingDevice-DIMMERSWITCH;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SwitchingDevice;1"],
+		"displayName": "Dimmer Switch@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2Qsa6P6719HRwY$4OSoDq9@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SwitchingDevice-EMERGENCYSTOP;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SwitchingDevice;1"],
+		"displayName": "Emergency Stop@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1AkYCx5WrDfQSeajQs4GbK@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SwitchingDevice-KEYPAD;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SwitchingDevice;1"],
+		"displayName": "Keypad@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/30Wun_rrP3hg09kZxKFSxo@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SwitchingDevice-MOMENTARYSWITCH;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SwitchingDevice;1"],
+		"displayName": "Momentary Switch@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1GXuot6Zv41wgJSbaoN8g7@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SwitchingDevice-SELECTORSWITCH;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SwitchingDevice;1"],
+		"displayName": "Selector Switch@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2WULe4Kq50n8t1M8n_T5Jc@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SwitchingDevice-STARTER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SwitchingDevice;1"],
+		"displayName": "Starter@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2R7sKp3Zz8EvRVJenaoFA0@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SwitchingDevice-SWITCHDISCONNECTOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SwitchingDevice;1"],
+		"displayName": "Switch Disconnector@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2YJHtgvof1aQ6qN28MCYJh@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SwitchingDevice-TOGGLESWITCH;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:SwitchingDevice;1"],
+		"displayName": "Toggle Switch@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2OMieHhU5ClBrIpriDbqmz@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Tank;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowStorageDevice;1"],
+		"displayName": "Tank@en",
+		"comment": "A vessel or container in which a fluid or gas is stored for later use.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Tank-BASIN;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Tank;1"],
+		"displayName": "Basin@en",
+		"comment": "an arbitrary open tank type@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Tank-BREAKPRESSURE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Tank;1"],
+		"displayName": "Break Pressure Tank@en",
+		"comment": "an open container that breaks the hydraulic pressure in a distribution system, typically located between the fluid reservoir and the fluid supply points. a typical break pressure tank allows the flow to discharge into the atmosphere, thereby reducing its hydrostatic pressure to zero@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Tank-EXPANSION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Tank;1"],
+		"displayName": "Expansion Tank@en",
+		"comment": "a closed container used in a closed fluid distribution system to mitigate the effects of thermal expansion or water hammer. the tank is typically constructed with a diaphragm dividing the tank into two sections, with fluid on one side of the diaphragm and air on the other. one example application is when connected to the primary circuit of a hot water system to accommodate the increase in volume of the water when it is heated@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Tank-FEEDANDEXPANSION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Tank;1"],
+		"displayName": "Feed And Expansion Tank@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/371WHCLHb6vgWMDDSDFW4f@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Tank-PRESSUREVESSEL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Tank;1"],
+		"displayName": "Pressure Vessel@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3pBTMtMgH5UOIRcXURYkQd@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Tank-STORAGE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Tank;1"],
+		"displayName": "Storage Tank@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/36ZG4Tdk1CARQ9FrH0BlZe@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Tank-VESSEL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Tank;1"],
+		"displayName": "Vessel@en",
+		"comment": "an arbitrary closed tank type@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Transformer;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EnergyConversionDevice;1"],
+		"displayName": "Transformer@en",
+		"comment": "A artefact that transfers electric energy without change of frequency                @en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Transformer-CURRENT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Transformer;1"],
+		"displayName": "Current Transformer@en",
+		"comment": "a transformer that changes the current between circuits@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Transformer-FREQUENCY;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Transformer;1"],
+		"displayName": "Frequency Transformer@en",
+		"comment": "a transformer that changes the frequency between circuits@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Transformer-INVERTER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Transformer;1"],
+		"displayName": "Inverter Transformer@en",
+		"comment": "device for the conversion of direct current (DC) to alternating current (AC)@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Transformer-RECTIFIER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Transformer;1"],
+		"displayName": "Rectifier Transformer@en",
+		"comment": "electric energy converter that changes single-phase or polyphase alternating electric currents to unidirectional current@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Transformer-VOLTAGE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Transformer;1"],
+		"displayName": "Voltage Transformer@en",
+		"comment": "a transformer that changes the voltage between circuits@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:TubeBundle;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EnergyConversionDevice;1"],
+		"displayName": "Buizenregister@nl-nl",
+		"comment": "A device consisting of tubes and bundles of tubes used for heat transfer and contained typically within other energy conversion devices, such as a chiller or coil.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:TubeBundle-FINNED;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:TubeBundle;1"],
+		"displayName": "Finned Tube Bundle@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/300_kyP4z8lfGEZ8$LKgLE@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:UnitaryControlElement;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:DistributionControlElement;1"],
+		"displayName": "Einheitsregler@de-de",
+		"comment": "A control element combines a number of control components into a single product, such as a thermostat or humidistat.\r\nProvides a housing for an aggregation of control or electrical distribution elements that, in combination, perform a singular (unitary) purpose. Each item in the aggregation may have its own geometric representation and location.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:UnitaryControlElement-ALARMPANEL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:UnitaryControlElement;1"],
+		"displayName": "Alarm Panel@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2E$a0foIL9GhqKHxJcRSkz@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:UnitaryControlElement-CONTROLPANEL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:UnitaryControlElement;1"],
+		"displayName": "Control Panel@en",
+		"comment": "a control element at which devices that control or monitor the operation of a site, building or part of a building are located@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:UnitaryControlElement-GASDETECTIONPANEL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:UnitaryControlElement;1"],
+		"displayName": "Gas Detection Panel@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/26McOeRsjAPOMMV393Pkuv@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:UnitaryControlElement-HUMIDISTAT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:UnitaryControlElement;1"],
+		"displayName": "Humidistat@en",
+		"comment": "a control element that senses and regulates the humidity of a system or space so that the humidity is maintained near a desired setpoint.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:UnitaryControlElement-INDICATORPANEL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:UnitaryControlElement;1"],
+		"displayName": "Indicator Panel@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3wAtS33ID4zuEOa3x02EIn@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:UnitaryControlElement-MIMICPANEL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:UnitaryControlElement;1"],
+		"displayName": "Mimic Panel@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2gW6eFlD1A7Qnqh99Dspb0@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:UnitaryControlElement-THERMOSTAT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:UnitaryControlElement;1"],
+		"displayName": "Thermostat@en",
+		"comment": "Is the component of a control system which regulates the temperature of a system so that the system's temperature is maintained near a desired set point temperature@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:UnitaryControlElement-WEATHERSTATION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:UnitaryControlElement;1"],
+		"displayName": "Weather Station@en",
+		"comment": "a control element that senses multiple climate properties such as temperature, humidity, pressure, wind, and rain@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:UnitaryEquipment;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:EnergyConversionDevice;1"],
+		"displayName": "Einbaufertige Anlage@de-de",
+		"comment": "A combined of a number of components into a single product, such as air handlers, pre-packaged rooftop air-conditioning units, heat pumps, and split systems.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:UnitaryEquipment-AIRCONDITIONINGUNIT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:UnitaryEquipment;1"],
+		"displayName": "Air Conditioning Unit@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1PIU70CHzCMAt_h32UKgoE@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:UnitaryEquipment-AIRHANDLER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:UnitaryEquipment;1"],
+		"displayName": "Air Handler@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1VnQL7ieb089ehb7syCaMo@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:UnitaryEquipment-DEHUMIDIFIER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:UnitaryEquipment;1"],
+		"displayName": "Dehumidifier@en",
+		"comment": "a unitary packaged dehumidification unit. Note: units supporting multiple modes (dehumidification, cooling, and/or heating) should use AIRCONDITIONINGUNIT@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:UnitaryEquipment-ROOFTOPUNIT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:UnitaryEquipment;1"],
+		"displayName": "Rooftop Unit@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0yMK$zpZz2Ahk9sfb3u4e7@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:UnitaryEquipment-SPLITSYSTEM;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:UnitaryEquipment;1"],
+		"displayName": "Split System@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2iiBgNKl10ifd$UgILMf64@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Valve;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowController;1"],
+		"displayName": "Absperrarmatur; Ventil@de-de",
+		"comment": "A flow control device used in a building services piping distribution system to control or modulate the flow of the fluid.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Valve-AIRRELEASE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Valve;1"],
+		"displayName": "Air Release@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3IEYICFuH8M9WXhUv2XVjI@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Valve-ANTIVACUUM;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Valve;1"],
+		"displayName": "Antivacuum",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3akkmqwTrDKhcl5Sgc6MbM@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Valve-CHANGEOVER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Valve;1"],
+		"displayName": "Change Over@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0EkRKqfjHD0PwOY11Ixaxp@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Valve-CHECK;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Valve;1"],
+		"displayName": "Check@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/39bvtEU9T7Kwb0mdT3F1M9@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Valve-COMMISSIONING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Valve;1"],
+		"displayName": "Commissioning",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3YmvYjeBXElRSJyWt903HE@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Valve-DIVERTING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Valve;1"],
+		"displayName": "Diverting@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0OsZoKWAP7BBEErvuwAY_x@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Valve-DOUBLECHECK;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Valve;1"],
+		"displayName": "DoubleCheck@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2$M2cKJh50r9iXgcDblZLB@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Valve-DOUBLEREGULATING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Valve;1"],
+		"displayName": "Double Regulating@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2Y8s3cCGf3WAkyIwDxHfmt@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Valve-DRAWOFFCOCK;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Valve;1"],
+		"displayName": "Draw Off Cock@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1hIDIXF9r7MPfWQSquoEbq@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Valve-FAUCET;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Valve;1"],
+		"displayName": "Faucet@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2j7S2gFkr9VAAkDsk9ttBg@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Valve-FLUSHING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Valve;1"],
+		"displayName": "Flushing@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3tbXQW_znFmQVfKs3YhQZ_@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Valve-GASCOCK;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Valve;1"],
+		"displayName": "Gas Cock@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0WwwuPsrfCgv8h5yWR3dKz@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Valve-GASTAP;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Valve;1"],
+		"displayName": "Gas Tap@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/116lS7JG144hslqbHhbgkA@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Valve-ISOLATING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Valve;1"],
+		"displayName": "Isolating@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3fYepZO51AmflcVtRK9IVO@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Valve-MIXING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Valve;1"],
+		"displayName": "Mixing@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3cpFwtq7L1Owmcm7Yxvp05@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Valve-PRESSUREREDUCING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Valve;1"],
+		"displayName": "Pressure Reducing@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1P7aHESGb1JxvdNIDc1D9J@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Valve-PRESSURERELIEF;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Valve;1"],
+		"displayName": "Pressure Relief@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0Si_BQgDr7f8BoS$bMsnAA@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Valve-REGULATING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Valve;1"],
+		"displayName": "Regulating@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2Y3yA_sy15NRRwfdI7LaxA@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Valve-SAFETYCUTOFF;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Valve;1"],
+		"displayName": "Safety Cut Off@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2cRQlX33L53gdVBEMFha9_@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Valve-STEAMTRAP;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Valve;1"],
+		"displayName": "Steam Trap@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1IXcpzdwj4SgIc_5uXMgrX@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Valve-STOPCOCK;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:Valve;1"],
+		"displayName": "Stop Cock@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0dmRan7HrB4v9gh4bkhOo3@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:WasteTerminal;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:FlowTerminal;1"],
+		"displayName": "Ablauf@de-de",
+		"comment": "A terminal for the purpose of collecting or intercepting waste from one or more sanitary terminals or other fluid waste generating equipment and discharging it into a single waste/drainage system.\r\nProvides for all forms of trap and waste point that collects discharge from a sanitary terminal and discharges it into a waste/drainage subsystem or that collects waste from several terminals and passes it into a single waste/drainage subsystem. Includes the P and S traps from soil sanitary terminals, sinks, and basins as well as floor wastes and gully traps that provide collection points.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:WasteTerminal-FLOORTRAP;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:WasteTerminal;1"],
+		"displayName": "Floor Trap@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/33CCzm2CLBDfHv1gHVU8MC@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:WasteTerminal-FLOORWASTE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:WasteTerminal;1"],
+		"displayName": "Floor Waste@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0Gg1lQtOn0jv4GqORpX2Y8@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:WasteTerminal-GULLYSUMP;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:WasteTerminal;1"],
+		"displayName": "Gully Sump@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0ZMLzB3o99aurJi3RGmMhG@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:WasteTerminal-GULLYTRAP;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:WasteTerminal;1"],
+		"displayName": "Gully Trap@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1WBoKi2av2NxTXpoB2QfO5@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:WasteTerminal-ROOFDRAIN;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:WasteTerminal;1"],
+		"displayName": "Roof Drain@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0Xkj0nlvX689aFUVxq3IMM@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:WasteTerminal-WASTEDISPOSALUNIT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:WasteTerminal;1"],
+		"displayName": "Waste Disposal Unit@en",
+		"comment": "electrically operated device that reduces kitchen or other waste into fragments small enough to be flushed into a drainage system.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:WasteTerminal-WASTETRAP;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:distributionelement:WasteTerminal;1"],
+		"displayName": "Waste Trap@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1JPv81z_531vDlQ02VFI9a@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:SomeItems;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Vocabulary;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Person;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:distributionelement:Product;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2"
+	}
+]

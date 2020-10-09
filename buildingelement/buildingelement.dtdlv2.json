@@ -1,0 +1,1478 @@
+[{
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Beam;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:BuildingElement;1"],
+		"displayName": "Balk@nl",
+		"comment": "A horizontal, or nearly horizontal, structural member that is capable of withstanding load primarily by resisting bending. It represents such a member from an architectural point of view. It is not required to be load bearing.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Beam-BEAM;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Beam;1"],
+		"displayName": "Beam@en",
+		"comment": "A horizontal, or nearly horizontal, structural member that is capable of withstanding load primarily by resisting bending. It represents such a member from an architectural point of view. It is not required to be load bearing.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Beam-HOLLOWCORE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Beam;1"],
+		"displayName": "Pre-cast Hollow Core Slab@en",
+		"comment": "Platte mit rechteckigem Querschnitt, in der auf voller Länge in Längsrichtung kreisrunde oder ovale Hohlräume (Aussparungen) verlaufen@de-de"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Beam-JOIST;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Beam;1"],
+		"displayName": "Joiste@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1_zkjNhS95oA5oDSSTnEvO@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Beam-LINTEL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Beam;1"],
+		"displayName": "Lintel@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1PivEYC0575QGoaAFjN8c9@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Beam-SPANDREL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Beam;1"],
+		"displayName": "Spandrel@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2$vr6UW$f3SwHilnemEZoH@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Beam-T_BEAM;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Beam;1"],
+		"displayName": "T_Beam@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1o9Up6wBr339DlpjWIWE$l@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:BuildingElement;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:SomeItems;1", "dtmi:be:pauwel:pi:voc:buildingelement:Product;1"],
+		"displayName": "Bauteil@de-de",
+		"comment": "Bauelement@de-de"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:BuildingElementPart;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:ElementComponent;1"],
+		"displayName": "Building Element Part@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3v2S1DH0r50BHIhWE6QHMZ@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:BuildingElementPart-INSULATION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:BuildingElementPart;1"],
+		"displayName": "Insulation@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2CF$o8Mgv2_xbw_kioa_YW@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:BuildingElementPart-PRECASTPANEL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:BuildingElementPart;1"],
+		"displayName": "Precast Panel@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0pt2K5QIXB89suCXlsQZw$@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Chimney;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:BuildingElement;1"],
+		"displayName": "Abgasanlage@de-de",
+		"comment": "A vertical structure of brick, masonry, or steel that carries exhaust gases or steam away from a fire, engine, etc.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Column;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:BuildingElement;1"],
+		"displayName": "Column@en",
+		"comment": "A vertical structural member which often is aligned with a structural grid intersection. It represents a vertical, or nearly vertical, structural member that transmits, through compression, the weight of the structure above to other structural elements below. It represents such a member from an architectural point of view. It is not required to be load bearing.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Column-COLUMN;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Column;1"],
+		"displayName": "Column@en",
+		"comment": "A vertical structural member which often is aligned with a structural grid intersection. It represents a vertical, or nearly vertical, structural member that transmits, through compression, the weight of the structure above to other structural elements below. It represents such a member from an architectural point of view. It is not required to be load bearing.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Column-PILASTER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Column;1"],
+		"displayName": "Pilaster@en",
+		"comment": "Pilaster@nb-no"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Covering;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:BuildingElement;1"],
+		"displayName": "Bekleidung / Belag@de-de",
+		"comment": "An element which covers some part of another element and is fully dependent on that other element.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Covering-CEILING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Covering;1"],
+		"displayName": "Ceiling@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/05pSAVKa99GQlGChUhmlv1@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Covering-CLADDING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Covering;1"],
+		"displayName": "Cladding@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0MKWgDXdn9OfqhAzFzvTUH@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Covering-FLOORING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Covering;1"],
+		"displayName": "Flooring@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1MZNPRnDz1jOV_XCmntitl@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Covering-INSULATION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Covering;1"],
+		"displayName": "Insulation@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0m_WyU8An7RAFjJPRPQn1j@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Covering-MEMBRANE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Covering;1"],
+		"displayName": "Dichtungsbahn@de-de",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3vHSkCoT0Hsm00051Mm008@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Covering-MOLDING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Covering;1"],
+		"displayName": "Gesims@de-de",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0rO5hENaL0Sx5ncSZm5QWi@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Covering-ROOFING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Covering;1"],
+		"displayName": "Roofing@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1roIuYcU5AxfQM_Wf18q7t@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Covering-SKIRTINGBOARD;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Covering;1"],
+		"displayName": "Matériau de la plinthe@fr-fr",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0rhD2N_cvFRRnqQ6pRM9aE@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Covering-SLEEVING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Covering;1"],
+		"displayName": "Sleeving@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2mox_rbmb43xWuIkQmJqW1@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Covering-WRAPPING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Covering;1"],
+		"displayName": "Wrapping@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/16XES3__TAdwQ57Ox4T_V8@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:CurtainWall;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:BuildingElement;1"],
+		"displayName": "Curtain Wall@en",
+		"comment": "An exterior wall of a building which is an assembly of components, hung from the edge of the floor/roof structure rather than bearing on a floor. @en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:DiscreteAccessory;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:ElementComponent;1"],
+		"displayName": "Accessoire composé@fr-fr",
+		"comment": "A representation of different kinds of accessories included in or added to elements.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:DiscreteAccessory-ANCHORPLATE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:DiscreteAccessory;1"],
+		"displayName": "Anchor Plate@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1XD5ysVrvF$haI5OgtznWi@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:DiscreteAccessory-BRACKET;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:DiscreteAccessory;1"],
+		"displayName": "Bracket@en",
+		"comment": "An artefact which is projecting from the side of a wall or other structure intended to support some other artefacts.        @en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:DiscreteAccessory-SHOE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:DiscreteAccessory;1"],
+		"displayName": "søylesko@nb-no",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1i44itooP5F9e53Jc$HR0o@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Door;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:BuildingElement;1"],
+		"displayName": "Deur@nl-nl",
+		"comment": "Bygningsdel som dekker en åpning i utvendig eller innvendig vegg, og som kan åpnes eller stenges for passasje.@nb-no"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Door-DOOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Door;1"],
+		"displayName": "Deur@nl-nl",
+		"comment": "A standard door usually within a wall opening, as a door panel in a curtain wall, or as a \"free standing\" door.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Door-GATE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Door;1"],
+		"displayName": "Gate@en",
+		"comment": "Det engelske ordet 'gate' og det franske ordet 'portail' refererer til produkter utenfor bygninger, for eksempel i innhegninger, gjerder osv.\r\nDet tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som tillater passering av kjøretøyer.@nb-no"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Door-TRAPDOOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Door;1"],
+		"displayName": "Roof Hatch@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3_T7f4cxzB_ur2vAtd6pJe@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:ElementComponent;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Product;1"],
+		"displayName": "Composant d'élément@fr-fr",
+		"comment": "A representation for minor items included in, added to or connecting to or between elements, which usually are not of interest from the overall building structure viewpoint. However, these small parts may have vital and load carrying functions within the construction. These items do not provide any actual space boundaries. Typical examples include different kinds of fasteners and various accessories.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Fastener;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:ElementComponent;1"],
+		"displayName": "Befestigungsmittel@de-de",
+		"comment": "Jointing component that is used to operate a door, window, shutter, gate or drawer .@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Fastener-GLUE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Fastener;1"],
+		"displayName": "Glue@en",
+		"comment": "bindemedel eller bindemedelslösning för hopfogning av fasta material@sv-se"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Fastener-MORTAR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Fastener;1"],
+		"displayName": "Mortar@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0dS2xSsC1BbvRjM1MIjNn5@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Fastener-WELD;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Fastener;1"],
+		"displayName": "Weld@en",
+		"comment": "a weld seam between parts of metallic material or other suitable materials@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Footing;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:BuildingElement;1"],
+		"displayName": "Footing@en",
+		"comment": "A part of the foundation of a structure that spreads and transmits the load to the soil. Also characterized as shallow foundation, where the loads are transferred to the ground near the surface.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Footing-CAISSON_FOUNDATION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Footing;1"],
+		"displayName": "Caisson Foundation@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0MGkpmTGDFC80qy7qA0W2w@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Footing-FOOTING_BEAM;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Footing;1"],
+		"displayName": "Footing Beam@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3hRbiifMvFOgC3tEfSPD8X@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Footing-PAD_FOOTING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Footing;1"],
+		"displayName": "Pad Footing@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1XJ0TK6AbBfxMCQLLkdnDr@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Footing-PILE_CAP;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Footing;1"],
+		"displayName": "Pile Cap@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3$LxhKMZjFuBdi75OQXj0L@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Footing-STRIP_FOOTING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Footing;1"],
+		"displayName": "Strip Footing@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0mDEbMPpzB9B_vQTUHZLHe@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:MechanicalFastener;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:ElementComponent;1"],
+		"displayName": "Mechanical Fastener@en",
+		"comment": "A fastener connecting building elements mechanically. A single instance may represent one or many of actual mechanical fasteners, for example an array of bolts or a row of nails.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:MechanicalFastener-ANCHORBOLT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:MechanicalFastener;1"],
+		"displayName": "Anchor Bolt@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3NJqge3HD7du28Nje_S1Yv@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:MechanicalFastener-BOLT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:MechanicalFastener;1"],
+		"displayName": "Bolt@en",
+		"comment": "a threaded cylindrical rod that engages with a similarly threaded hole in a nut or any other part to form a fastener. the mechanical fastener often also includes one or more washers and one or more nuts.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:MechanicalFastener-DOWEL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:MechanicalFastener;1"],
+		"displayName": "Felsdübel@de-de",
+		"comment": "Dybel@nb-no"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:MechanicalFastener-NAIL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:MechanicalFastener;1"],
+		"displayName": "Nail@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1WICu7sp12cQ$$2QCHf$DB@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:MechanicalFastener-NAILPLATE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:MechanicalFastener;1"],
+		"displayName": "Nail Plate@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/26FDcCBjH3BOLZTZb29fxk@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:MechanicalFastener-RIVET;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:MechanicalFastener;1"],
+		"displayName": "Rivet@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1zynxAt3H1eAVfmukRcO4R@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:MechanicalFastener-SCREW;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:MechanicalFastener;1"],
+		"displayName": "Screw@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2NLmoal3LAGxceh8SPCvI7@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:MechanicalFastener-SHEARCONNECTOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:MechanicalFastener;1"],
+		"displayName": "Shear Connector@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0sHCCoroj0pesEpqdsmtRT@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:MechanicalFastener-STAPLE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:MechanicalFastener;1"],
+		"displayName": "Staple@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3ugeBu3lP8WANu_d7DFAtv@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:MechanicalFastener-STUDSHEARCONNECTOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:MechanicalFastener;1"],
+		"displayName": "Stud Shear Connector@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2VmXuOwNvFIxXMT91lYI9q@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Member;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:BuildingElement;1"],
+		"displayName": "Member@en",
+		"comment": "A structural member designed to carry loads between or beyond points of support. It is not required to be load bearing.  A linear architectural or structural element that cannot be expressed more specifically as either a beam or column.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Member-BRACE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Member;1"],
+		"displayName": "Brace@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0ccYVvWMX5jwoOSredVplR@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Member-CHORD;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Member;1"],
+		"displayName": "Chord@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1_qCPXQ3j1VBh_PCDSM2PC@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Member-COLLAR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Member;1"],
+		"displayName": "Collar@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1r9F5o8Pv9mPKppdGc$YOw@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Member-MEMBER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Member;1"],
+		"displayName": "Member@en",
+		"comment": "A structural member designed to carry loads between or beyond points of support. It is not required to be load bearing.  A linear architectural or structural element that cannot be expressed more specifically as either a beam or column.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Member-MULLION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Member;1"],
+		"displayName": "Mullion@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2H6TZXz1vEFOlOdhLv3CD7@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Member-PLATE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Member;1"],
+		"displayName": "Plate@en",
+		"comment": "A planar and often flat part with constant thickness. May carry loads between or beyond points of support, or provide stiffening. @en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Member-POST;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Member;1"],
+		"displayName": "stolpe@nb-no",
+		"comment": "a linear member (usually used vertically) within a roof structure to support purlins@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Member-PURLIN;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Member;1"],
+		"displayName": "takås@nb-no",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2ClC__ZBT6lgGn9bEtyKAq@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Member-RAFTER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Member;1"],
+		"displayName": "Rafter@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/14MOjpDn1DYfI9uAgvn_Mm@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Member-STRINGER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Member;1"],
+		"displayName": "Stringer@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/31phWfaoDEDwTkU1_cQp7G@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Member-STRUT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Member;1"],
+		"displayName": "Strut@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0F1OouH1f9rPC$dWa4xYLb@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Member-STUD;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Member;1"],
+		"displayName": "Stud@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/14DS4URKP2au1B2s5ghLFp@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Pile;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:BuildingElement;1"],
+		"displayName": "Fundament / Tiefgründung@de-de",
+		"comment": "A vertical structural member of timber, concrete, or steel, driven into the earth as a foundation or support for a structure for the transfer of actions. @en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Pile-BORED;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Pile;1"],
+		"displayName": "Bored Pile@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1INEbwMtrBy9rKhAuvXYmq@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Pile-COHESION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Pile;1"],
+		"displayName": "Cohesion Pile@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3xzAjG3Uv5qeCDRxYCXd4d@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Pile-DRIVEN;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Pile;1"],
+		"displayName": "Driven Pile@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2Qg5YD6TD299EHtweCaOOy@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Pile-FRICTION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Pile;1"],
+		"displayName": "Friction Pile@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3LgOubO_D3EhcElUZP9dMe@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Pile-JETGROUTING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Pile;1"],
+		"displayName": "Jet Grouting Pile@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1tI0jqBjHEmADWyrGGYig6@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Pile-SUPPORT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Pile;1"],
+		"displayName": "Support@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3qZud6iazFjOZ3wK3WoQch@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Plate;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:BuildingElement;1"],
+		"displayName": "Plate@en",
+		"comment": "A planar and often flat part with constant thickness. May carry loads between or beyond points of support, or provide stiffening. @en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Plate-CURTAIN_PANEL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Plate;1"],
+		"displayName": "Curtain Panel@en",
+		"comment": "a planar element within a curtain wall, often consisting of a frame with fixed glazing@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Plate-SHEET;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Plate;1"],
+		"displayName": "Sheet@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2C4D8j05v51eRokWOWtlju@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Railing;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:BuildingElement;1"],
+		"displayName": "Garde corps@fr-fr",
+		"comment": "A frame assembly adjacent to human circulation spaces and at some space boundaries where it is used in line of walls or to compliment walls. Designed to aid humans, either as an optional physical support, or to prevent injury by falling.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Railing-BALUSTRADE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Railing;1"],
+		"displayName": "Balustrade@en",
+		"comment": "A balustrade is a separation construction alongside the edges of floors, roofs, stairs and ramps, protecting against falling into the deep.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Railing-GUARDRAIL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Railing;1"],
+		"displayName": "Garde corps@fr-fr",
+		"comment": "A frame assembly adjacent to human circulation spaces and at some space boundaries where it is used in line of walls or to compliment walls. Designed to aid humans, either as an optional physical support, or to prevent injury by falling.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Railing-HANDRAIL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Railing;1"],
+		"displayName": "Handlauf@de-de",
+		"comment": "Håndlister, typisk i korridorer@nb-no"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Ramp;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:BuildingElement;1"],
+		"displayName": "Helling@nl",
+		"comment": "A vertical passageway which provides a human circulation link between one floor level and another floor level at a different elevation. Normally does not include steps.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Ramp-HALF_TURN_RAMP;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Ramp;1"],
+		"displayName": "Half Turn Ramp@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1hJB5FgjL4_v2TrvOBjmzz@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Ramp-QUARTER_TURN_RAMP;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Ramp;1"],
+		"displayName": "Quarter Turn Ramp@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1FZ7G8CAP2UxmW6fnuOOfQ@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Ramp-SPIRAL_RAMP;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Ramp;1"],
+		"displayName": "Spiral Ramp@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2__YGgu4XCN9NmT3LhvE6V@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Ramp-STRAIGHT_RUN_RAMP;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Ramp;1"],
+		"displayName": "Straight Run Ramp@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1SYNqJ72H64g7EG2vm8VJu@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Ramp-TWO_QUARTER_TURN_RAMP;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Ramp;1"],
+		"displayName": "Two Quarter Turn Ramp@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2wUjACPhnDyAgFiGarLaek@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Ramp-TWO_STRAIGHT_RUN_RAMP;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Ramp;1"],
+		"displayName": "Two Straight Run Ramp@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2skPwOQSH1Ex7UR3SpDGbT@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:RampFlight;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:BuildingElement;1"],
+		"displayName": "Ramp Flight@en",
+		"comment": "A single inclined segment, or several inclined segments that are connected by a horizontal segment, referred to as a landing. @en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:RampFlight-SPIRAL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:RampFlight;1"],
+		"displayName": "Spiral@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0CDsSbmyb4GA$0xajhCLYB@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:RampFlight-STRAIGHT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:RampFlight;1"],
+		"displayName": "Straight@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0fyv31IoL8mwvU9TcZR2FC@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingBar;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingElement;1"],
+		"displayName": "Bewehrungsstab@de-de",
+		"comment": "a reinforcing bar is usually made of steel with manufactured deformations in the surface, and used in concrete and masonry construction to provide additional strength. a single instance of this class may represent one or many of actual rebars, for example a row of rebars.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingBar-ANCHORING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingBar;1"],
+		"displayName": "Anchoring@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3X1mNZzk542ez6g92TTVdH@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingBar-EDGE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingBar;1"],
+		"displayName": "Edge@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0tRGNh1sv19OvGghikeGYQ@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingBar-LIGATURE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingBar;1"],
+		"displayName": "Ligature@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/09DzOB3qT10AwjdzYLo1LA@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingBar-MAIN;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingBar;1"],
+		"displayName": "Main@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0ZDnwDkMT9fhTxjjLnIpAX@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingBar-PUNCHING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingBar;1"],
+		"displayName": "Punching@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1RO$_IvNP7eQABna$VzMm_@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingBar-RING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingBar;1"],
+		"displayName": "Ring@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2zA8DFnW5B8hiBjIlXcktx@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingBar-SHEAR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingBar;1"],
+		"displayName": "Shear@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/220Wv8D4n11hjTIo_DzfBR@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingBar-STUD;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingBar;1"],
+		"displayName": "Stud@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3cWXnrQEvAfRCh9LjK26$R@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingElement;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:ElementComponent;1"],
+		"displayName": "Bewehrung@de-de",
+		"comment": "a reinforcing element represents bars, wires, strands, meshes, tendons, and other components embedded in concrete in such a manner that the reinforcement and the concrete act together in resisting forces.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingMesh;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingElement;1"],
+		"displayName": "Bewehrungsmatte@de-de",
+		"comment": "a reinforcing mesh is a series of longitudinal and transverse wires or bars of various gauges, arranged at right angles to each other and welded at all points of intersection; usually used for concrete slab reinforcement. it is also known as welded wire fabric. in scope are plane meshes as well as bent meshes.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Roof;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:BuildingElement;1"],
+		"displayName": "Dach@de-de",
+		"comment": "A covering of the top part of a building. Protects the building against the effects of weather.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Roof-BARREL_ROOF;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Roof;1"],
+		"displayName": "Barrel Roof@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/172RLdein1b8WIbTtDLVbc@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Roof-BUTTERFLY_ROOF;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Roof;1"],
+		"displayName": "Butterfly Roof@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2W6yLK2r968h2TWfGC2xWu@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Roof-DOME_ROOF;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Roof;1"],
+		"displayName": "Dome Roof@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3UcE2aJPP4ewOoRn29unfZ@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Roof-FLAT_ROOF;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Roof;1"],
+		"displayName": "Flat Roof@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3IeKrtrMz2SQN7qpJt82e5@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Roof-FREEFORM;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Roof;1"],
+		"displayName": "Free Form Roof@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2KVHvK7iXAEfKlD5hGIFEc@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Roof-GABLE_ROOF;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Roof;1"],
+		"displayName": "Gable Roof@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0gHJNRNhz6LOTHVbnW$nEj@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Roof-GAMBREL_ROOF;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Roof;1"],
+		"displayName": "Gambrel Roof@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2BnDhKP1HF3vXxnwqccewa@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Roof-HIPPED_GABLE_ROOF;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Roof;1"],
+		"displayName": "Hipped Gable Roof@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3Su_2ncLX1Oes0r3fNr4uE@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Roof-HIP_ROOF;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Roof;1"],
+		"displayName": "Hip Roof@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0waejMcyT3zwP6nRClvfSx@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Roof-MANSARD_ROOF;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Roof;1"],
+		"displayName": "Mansard Roof@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1hB_MPg3j35vRsm_vutjD2@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Roof-PAVILION_ROOF;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Roof;1"],
+		"displayName": "Pavilion Roof@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/11Ltv09Eb7lRJW184fZ9gF@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Roof-RAINBOW_ROOF;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Roof;1"],
+		"displayName": "Rainbow Roof@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1MnaPoqUb0L8PGqS6yHzbq@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Roof-SHED_ROOF;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Roof;1"],
+		"displayName": "Shed Roof@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3GsCyHvinDMPWmecHluOEq@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:ShadingDevice;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:BuildingElement;1"],
+		"displayName": "Afskærmningsanordning@da",
+		"comment": "Purpose built devices to protect from the sunlight, from natural light, or screening them from view. Shading devices can form part of the facade or can be mounted inside the building, they can be fixed or operable.\r\n@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:ShadingDevice-AWNING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:ShadingDevice;1"],
+		"displayName": "Awning@en",
+		"comment": "a rooflike shelter of canvas or other material extending over a doorway, from the top of a window, over a deck, etc., in order to provide protection, as from the sun@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:ShadingDevice-JALOUSIE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:ShadingDevice;1"],
+		"displayName": "Jalousie@de-de",
+		"comment": "Solavskjerming, Persienner@nb-no"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:ShadingDevice-SHUTTER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:ShadingDevice;1"],
+		"displayName": "Abschluß@de-de",
+		"comment": "An artefact which is a part of an assembly that can be moved from a position where it permits contact, to a position where it becomes a part of the enclosure or partition shielding the fixed contacts.                @en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Slab;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:BuildingElement;1"],
+		"displayName": "Decke / Dachfläche / Bodenplatte@de-de",
+		"comment": "A component of the construction that normally encloses a space vertically. May provide the lower support (floor) or upper construction (roof slab) in any space in a building.\r\nOnly the core or constructional part of this construction is considered to be a slab. The upper finish (flooring, roofing) and the lower finish (ceiling, suspended ceiling) are considered to be coverings. @en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Slab-BASESLAB;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Slab;1"],
+		"displayName": "støpt fundament@nb-no",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1hBroEIeL9neS3mSSGZiyC@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Slab-FLOOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Slab;1"],
+		"displayName": "Floor@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0jBALpJIv7vvlWkbd9HdCx@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Slab-LANDING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Slab;1"],
+		"displayName": "Landing@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3tQbZvvrfA8OUjU1kc2rUZ@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Slab-ROOF;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Slab;1"],
+		"displayName": "Dach@de-de",
+		"comment": "A covering of the top part of a building. Protects the building against the effects of weather.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Stair;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:BuildingElement;1"],
+		"displayName": "Stair@en",
+		"comment": "A vertical passageway allowing occupants to walk (step) from one floor level to another floor level at a different elevation. May include a landing as an intermediate floor slab.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Stair-CURVED_RUN_STAIR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Stair;1"],
+		"displayName": "Curved Run Stair@en",
+		"comment": "a stair extending from one level to another without turns or winders. the stair is consisting of one curved flight.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Stair-DOUBLE_RETURN_STAIR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Stair;1"],
+		"displayName": "Double Return Stair@en",
+		"comment": "a stair having one straight flight to a wide quarterspace landing, and two side flights from that landing into opposite directions. the stair is making a 90° turn. the direction of traffic is determined by the walking line.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Stair-HALF_TURN_STAIR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Stair;1"],
+		"displayName": "Half Turn Stair@en",
+		"comment": "a stair making a 180° turn, consisting of two straight flights connected by a halfspace landing. the orientation of the turn is determined by the walking line.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Stair-HALF_WINDING_STAIR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Stair;1"],
+		"displayName": "Half Winding Stair@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0Vw081Hfz1AQne1V5CsfUA@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Stair-QUARTER_TURN_STAIR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Stair;1"],
+		"displayName": "Quarter Turn Stair@en",
+		"comment": "a stair making a 90° turn, consisting of two straight flights connected by a quarterspace landing. the direction of the turn is determined by the walking line.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Stair-QUARTER_WINDING_STAIR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Stair;1"],
+		"displayName": "Quarter Winding Stair@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3PzSNWl5T1EgMXH$Tn6uuQ@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Stair-SPIRAL_STAIR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Stair;1"],
+		"displayName": "Spiral Stair@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0UwQe$TXP47AhE5k0mZzCe@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Stair-STRAIGHT_RUN_STAIR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Stair;1"],
+		"displayName": "Straight Run Stair@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3p4WSJmK96Oe6HXE$jmWWy@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Stair-THREE_QUARTER_TURN_STAIR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Stair;1"],
+		"displayName": "Three Quarter Turn Stair@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2jTG3NRNHCyhbsMbwK38v5@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Stair-THREE_QUARTER_WINDING_STAIR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Stair;1"],
+		"displayName": "Three Quarter Winding Stair@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0rPjGYk_LFnOayZFsJg3tr@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Stair-TWO_CURVED_RUN_STAIR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Stair;1"],
+		"displayName": "Two Curved Run Stair@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0cSo1dkGL8NunRzp$sQsTc@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Stair-TWO_QUARTER_TURN_STAIR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Stair;1"],
+		"displayName": "Two Quarter Turn Stair@en",
+		"comment": "a stair making a 180° turn, consisting of three straight flights connected by two quarterspace landings. the direction of the turns is determined by the walking line@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Stair-TWO_QUARTER_WINDING_STAIR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Stair;1"],
+		"displayName": "Two Quarter Winding Stair@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3SSlfuJ_nA49lzIOhda6Xr@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Stair-TWO_STRAIGHT_RUN_STAIR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Stair;1"],
+		"displayName": "Two Straight Run Stair@en",
+		"comment": "a straight stair consisting of two straight flights without turns but with one landing.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:StairFlight;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:BuildingElement;1"],
+		"displayName": "Stair Flight@en",
+		"comment": "An assembly of building components in a single \"run\" of stair steps (not interrupted by a landing).@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:StairFlight-CURVED;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:StairFlight;1"],
+		"displayName": "Curved@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2DeCDqEVHDjwFaGVpyNC89@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:StairFlight-FREEFORM;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:StairFlight;1"],
+		"displayName": "friform@nb-no",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0uFuIDRO1EZPmcL8pEkVU$@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:StairFlight-SPIRAL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:StairFlight;1"],
+		"displayName": "Spiral@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1zj3DVJij6IBVuIqOLbi46@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:StairFlight-STRAIGHT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:StairFlight;1"],
+		"displayName": "Straight@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/247CeErMz16BZyRhwbAOdR@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:StairFlight-WINDER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:StairFlight;1"],
+		"displayName": "Winder@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3XVLP1SZf8YQfshhp0Vjph@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Tendon;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingElement;1"],
+		"displayName": "Spannglied@de-de",
+		"comment": "a tendon is a steel element such as a wire, cable, bar, rod or strand used to impart prestress to concrete when the element is tensioned.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Tendon-BAR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Tendon;1"],
+		"displayName": "Bar@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3seMZXSSH4YfQCPjOcaoZG@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Tendon-COATED;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Tendon;1"],
+		"displayName": "Coated@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1WLzEVaRD77A5KPd3$v9DB@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Tendon-STRAND;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Tendon;1"],
+		"displayName": "Strand@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1d4UrJXi92ivdu3FflJ62n@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Tendon-WIRE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Tendon;1"],
+		"displayName": "Wire@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1NCnQvMs9AaRqwexu7DofF@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:TendonAnchor;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:ReinforcingElement;1"],
+		"displayName": "Spanngliedanker@de-de",
+		"comment": "a tendon anchor is the end connection for tendons in prestressed or posttensioned concrete.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:TendonAnchor-COUPLER;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:TendonAnchor;1"],
+		"displayName": "Coupler@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2yrjArQAnBL9EdTqIc7Uv7@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:TendonAnchor-FIXED_END;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:TendonAnchor;1"],
+		"displayName": "Fixed End@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/133YYoKAv8mBxccTJtzWju@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:TendonAnchor-TENSIONING_END;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:TendonAnchor;1"],
+		"displayName": "Tensioning End@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2Bp8P7qwn1Hg1BaRHyCQP4@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:TransportElement;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Product;1"],
+		"displayName": "Beförderungsgerät@de-de",
+		"comment": "A generalization of all transport related objects that move people, animals or goods within a building or building complex. Include elevator (lift), escalator, moving walkway, etc.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:TransportElement-CRANEWAY;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:TransportElement;1"],
+		"displayName": "Craneway@en",
+		"comment": "An artefact for raising, shifting and lowering heavy weights by means of a projecting swinging arm or with hoisting mechanism supported on an overhead track.        @en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:TransportElement-ELEVATOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:TransportElement;1"],
+		"displayName": "Aufzug@de-de",
+		"comment": "a permanent lifting equipment serving defined landing levels, comprising a car, whose dimensions and means of construction clearly permit the access of persons; running at least partially between rigid vertical guides or guides whose inclination to the ve@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:TransportElement-ESCALATOR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:TransportElement;1"],
+		"displayName": "Fahrtreppe@de-de",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/377eo0WJOHu000025QrE$V@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:TransportElement-LIFTINGGEAR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:TransportElement;1"],
+		"displayName": "Lifting Gear@en",
+		"comment": "a device used for lifting or lowering heavy goods. It may be manually operated or electrically or pneumatically driven@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:TransportElement-MOVINGWALKWAY;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:TransportElement;1"],
+		"displayName": "Moving Walkway@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0Fn7lcsC5As81fnfma0hsy@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:VibrationIsolator;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:ElementComponent;1"],
+		"displayName": "Schwingungsisolator@de-de",
+		"comment": "A device used to minimize the effects of vibration transmissibility in a building.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:VibrationIsolator-COMPRESSION;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:VibrationIsolator;1"],
+		"displayName": "kompresjon@nb-no",
+		"comment": "compression type vibration isolator@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:VibrationIsolator-SPRING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:VibrationIsolator;1"],
+		"displayName": "Spring@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3cKim0GJf3mxz7EqVVfQ8u@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Wall;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:BuildingElement;1"],
+		"displayName": "Muur@nl",
+		"comment": "A vertical construction that bounds or subdivides spaces. Usually vertical, or nearly vertical, planar elements, often designed to bear structural loads. However not required to be load bearing.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Wall-ELEMENTEDWALL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Wall;1"],
+		"displayName": "Elemented Wall@en",
+		"comment": "a stud wall framed with studs and faced with sheetings, sidings, wallboard, or plasterwork@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Wall-MOVABLE;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Wall;1"],
+		"displayName": "Flyttbar@nb-no",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2nSQnTH_18RB$MO5daYxD0@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Wall-PARAPET;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Wall;1"],
+		"displayName": "Balustrade@nl-nl",
+		"comment": "Parapet/brystning\r\nOpphøyet kant som stikker opp over tak@nb-no"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Wall-PARTITIONING;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Wall;1"],
+		"displayName": "Partitioning Wall@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/3DBpG2jff4GAXiQp8trskt@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Wall-PLUMBINGWALL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Wall;1"],
+		"displayName": "Plumbing Wall@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/1YFt0DFB99uxbJnz4oFiew@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Wall-POLYGONAL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Wall;1"],
+		"displayName": "Polygonal Wall@en",
+		"comment": "a polygonal wall, extruded vertically, where the wall thickness varies along the wall path@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Wall-SHEAR;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Wall;1"],
+		"displayName": "Shear Wall@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/0MAk1miOTAJQpI0VGyMnjS@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Wall-SOLIDWALL;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Wall;1"],
+		"displayName": "Solid Wall@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2J1xt_ADz7heqvTyh5YGEM@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Wall-STANDARD;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Wall;1"],
+		"displayName": "Standard Wall@en",
+		"comment": "http://bsdd.buildingsmart.org/#concept/details/2HWHt8Yiz4m9UzhlqVFLeO@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:WallElementedCase;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Wall;1"],
+		"displayName": "Elemented Wall Case@en",
+		"comment": "A wall with certain constraints for the provision of its components.@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Window;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:BuildingElement;1"],
+		"displayName": "Fenster@de-de",
+		"comment": "Abertura destinada a iluminar e ventilar os ambientes internos, além de facilitar a visão do exterior.@pt-br"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Window-LIGHTDOME;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Window;1"],
+		"displayName": "Light dome@en",
+		"comment": "a special window that lies horizonally in a roof slab opening@en"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Window-SKYLIGHT;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Window;1"],
+		"displayName": "Daklicht@nl-nl",
+		"comment": "Overlys@nb-no"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Window-WINDOW;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2",
+		"extends": ["dtmi:be:pauwel:pi:voc:buildingelement:Window;1"],
+		"displayName": "Fenster@de-de",
+		"comment": "A building element that is predominately used to provide natural light and fresh air. It includes vertical opening but also horizontal opening such as skylights or light domes. It includes constructions with swinging, pivoting, sliding, or revolving panels and fixed panels. A window consists of a lining and one or several panels.\r\nNOTE  Definition according to ISO 6707-1\r\nConstruction for closing a vertical or near vertical opening in a wall or pitched roof that will admit light and may admit fresh air.@ifc-2x4"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:SomeItems;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Vocabulary;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Person;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2"
+	}, {
+		"@id": "dtmi:be:pauwel:pi:voc:buildingelement:Product;1",
+		"@type": "Interface",
+		"contents": [],
+		"@context": "dtmi:dtdl:context;2"
+	}
+]
